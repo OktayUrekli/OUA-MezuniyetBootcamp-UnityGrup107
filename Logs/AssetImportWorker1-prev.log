@@ -1,0 +1,842 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 7973 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Directories/UnityProjects/Grup107
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49517
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Directories/UnityProjects/Grup107
+C:/Directories/UnityProjects/Grup107
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12384] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 557038683 [EditorId] 557038683 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8KFVR9E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12384] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 557038683 [EditorId] 557038683 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8KFVR9E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Directories/UnityProjects/Grup107/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     3986 MB
+    Driver:   27.20.100.8935
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.014141 seconds.
+- Loaded All Assemblies, in  1.153 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 563 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.402 seconds
+Domain Reload Profiling: 2550ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (132ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (454ms)
+			TypeCache.Refresh (451ms)
+				TypeCache.ScanAssembly (419ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1402ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (831ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Directories\UnityProjects\Grup107\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Directories\UnityProjects\Grup107\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.580 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.927 seconds
+Domain Reload Profiling: 2502ms
+	BeginReloadAssembly (772ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (928ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (1.0 MB). Loaded Objects now: 3718.
+Memory consumption went from 101.6 MB to 100.6 MB.
+Total: 11.068600 ms (FindLiveObjects: 0.529300 ms CreateObjectMapping: 0.535700 ms MarkObjects: 7.071000 ms  DeleteObjects: 2.931200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 763355.107533 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34163397d7a73dad3366c662ac23692') in 0.0089271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.783706 seconds.
+  path: Assets/Sprites/fbx/full/_bakkery.fbx
+  artifactKey: Guid(271554b5920dda6458a2ff75c8ee07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_bakkery.fbx using Guid(271554b5920dda6458a2ff75c8ee07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a2423d62ea0df9ee955990c477253b6') in 0.6516086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/fbx/full/_counter1.fbx
+  artifactKey: Guid(ca150c1de440ba444a082a03b94b4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_counter1.fbx using Guid(ca150c1de440ba444a082a03b94b4799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0144bdc9dffbcae6a08d5fb618e115ef') in 0.0607962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/fbx/full/_lamp_1.fbx
+  artifactKey: Guid(caab4c0a8b875fc4a9d112c6164c7bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_lamp_1.fbx using Guid(caab4c0a8b875fc4a9d112c6164c7bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049c5586067ff0f427ec86d088f6d8fd') in 0.0644079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/fbx/full/_herbalist_counter.fbx
+  artifactKey: Guid(9bc3d11baa0dfec44b4fe87193e34a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_herbalist_counter.fbx using Guid(9bc3d11baa0dfec44b4fe87193e34a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893baffa95b8dfadff7a8b8a39e853a4') in 0.0675367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/fbx/full/_herbalist_shop.fbx
+  artifactKey: Guid(21ffd00ee455b284983e8eb4c5324945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_herbalist_shop.fbx using Guid(21ffd00ee455b284983e8eb4c5324945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b8d5a5a06f084bf3398d64cca54b02c') in 0.0552796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Sprites/fbx/full/_tent_2.fbx
+  artifactKey: Guid(55ce01aa1b5c429408134849ff976923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_tent_2.fbx using Guid(55ce01aa1b5c429408134849ff976923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3b4b39b24103f5e2ea85234f098280d') in 0.0547749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Sprites/fbx/full/_tavern.fbx
+  artifactKey: Guid(932e79f2f1ea0044baaebc9ecbcbf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_tavern.fbx using Guid(932e79f2f1ea0044baaebc9ecbcbf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b796aa25c56bd33b385b72400683f11f') in 0.0558162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/fbx/full/_statue_2.fbx
+  artifactKey: Guid(1a610d5c456e65243a0acbf349075485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_statue_2.fbx using Guid(1a610d5c456e65243a0acbf349075485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd17391b5cf215b7746b7db3516c7c667') in 0.0659672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/fbx/full/_fontan_2.fbx
+  artifactKey: Guid(616f627e21377fb41bbfcf61b7516330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_fontan_2.fbx using Guid(616f627e21377fb41bbfcf61b7516330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71437b8e9b62eb28863ff31db7b904d6') in 0.0561791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Sprites/fbx/full/_pointer_1.fbx
+  artifactKey: Guid(8a1a3836f1cf2ac40b5ddf1160e26787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/full/_pointer_1.fbx using Guid(8a1a3836f1cf2ac40b5ddf1160e26787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2281d3bcb777019ad00a0c6cb418f2a') in 0.0666706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.847884 seconds.
+  path: Assets/Sprites/fbx/parts/_bridge_middle.fbx
+  artifactKey: Guid(7a737ba1d76d23f4a8d39323b53bf686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/parts/_bridge_middle.fbx using Guid(7a737ba1d76d23f4a8d39323b53bf686) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38cde7aab98bfd24be32cfb504b5bb3b') in 0.0461347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.244200 seconds.
+  path: Assets/Sprites/fbx/rig_unity/bakkery_rig.fbx
+  artifactKey: Guid(538d56a162d15fc489b4e2a2f42cfd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unity/bakkery_rig.fbx using Guid(538d56a162d15fc489b4e2a2f42cfd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '435ec1ee06a1139793e917db378cc9c1') in 0.1111429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/fbx/rig_unity/tavern_rig.fbx
+  artifactKey: Guid(daae7a9c70ebd7c4fb565de02d4fd1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unity/tavern_rig.fbx using Guid(daae7a9c70ebd7c4fb565de02d4fd1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '539f40cfade532c0694c683b4e82bf9d') in 0.0658758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/fbx/rig_unity/herbalist_shop_rig.fbx
+  artifactKey: Guid(a7b0d941fe849e54c800b10cf78db324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unity/herbalist_shop_rig.fbx using Guid(a7b0d941fe849e54c800b10cf78db324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99d88f87002c5151e9bb923ca9f131f7') in 0.0728431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/fbx/rig_unity/weaving_work_rig.fbx
+  artifactKey: Guid(aca0cc60e7433f44a84e824d9974ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unity/weaving_work_rig.fbx using Guid(aca0cc60e7433f44a84e824d9974ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '437d1599e682ad086ce3bd98a016940b') in 0.0763939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/fbx/rig_unity/winery_rig.fbx
+  artifactKey: Guid(1865ac56f82de9946a3c29d167104460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unity/winery_rig.fbx using Guid(1865ac56f82de9946a3c29d167104460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '053df2fe327c1424828e74fdadf07d34') in 0.0635017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.803166 seconds.
+  path: Assets/Sprites/fbx/rig_unreal/bakery_rig.fbx
+  artifactKey: Guid(43584ce1739c78948a611650fca3760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unreal/bakery_rig.fbx using Guid(43584ce1739c78948a611650fca3760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '787cdffa8c88b3b03304a51bca152a20') in 0.0889831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprites/fbx/rig_unreal/winery_rig.fbx
+  artifactKey: Guid(316af6e3bf6aa184d916d4e318ccf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unreal/winery_rig.fbx using Guid(316af6e3bf6aa184d916d4e318ccf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a85df0e0d116f645d70dc0246d2a65a5') in 0.0743641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/fbx/rig_unreal/hwrbalist_shop_rig.fbx
+  artifactKey: Guid(682de433d6be8144796523ea301d4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fbx/rig_unreal/hwrbalist_shop_rig.fbx using Guid(682de433d6be8144796523ea301d4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62533c1384ba950c7d59bef43b1dec68') in 0.066166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Prepare
+Assembly DLL name is reserved for internal use: Assets/Sprites/NHP (Built-In) Demo/NHP (Built-In) Demo_Data/Managed/mscorlib.dll (did files generated by a build accidentally end up in your Assets/ folder?)
+Assembly DLL name is reserved for internal use: Assets/Sprites/NHP (Built-In) Demo/NHP (Built-In) Demo_Data/Managed/UnityEngine.dll (did files generated by a build accidentally end up in your Assets/ folder?)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3234 unused Assets / (1.0 MB). Loaded Objects now: 3767.
+Memory consumption went from 111.5 MB to 110.5 MB.
+Total: 7.637500 ms (FindLiveObjects: 0.466400 ms CreateObjectMapping: 0.372700 ms MarkObjects: 5.594300 ms  DeleteObjects: 1.202100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 366.433022 seconds.
+  path: Assets/Sprites/NHP (Built-In) Demo/UnityCrashHandler64.exe
+  artifactKey: Guid(6defcce6690801142858785d3e264b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/NHP (Built-In) Demo/UnityCrashHandler64.exe using Guid(6defcce6690801142858785d3e264b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5db3892f543e58ddedf7bca1b19bd0') in 0.010671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3135 unused Assets / (0.8 MB). Loaded Objects now: 3767.
+Memory consumption went from 110.9 MB to 110.1 MB.
+Total: 6.140300 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.305000 ms MarkObjects: 4.525300 ms  DeleteObjects: 0.937400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Directories\UnityProjects\Grup107\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Directories\UnityProjects\Grup107\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.165 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.169 seconds
+Domain Reload Profiling: 2335ms
+	BeginReloadAssembly (317ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (770ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3140 unused Assets / (0.9 MB). Loaded Objects now: 3766.
+Memory consumption went from 113.5 MB to 112.6 MB.
+Total: 7.807700 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.281500 ms MarkObjects: 5.990500 ms  DeleteObjects: 1.075200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.727672 seconds.
+  path: Assets/Sprites/LowPolyAssets/LowPolyAssets.fbx
+  artifactKey: Guid(225b83ebc27fc324c87b6849e9981052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPolyAssets/LowPolyAssets.fbx using Guid(225b83ebc27fc324c87b6849e9981052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa7b3e9b8c4fc9e4ca906f99bb7a811') in 0.0895859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/LowPolyAssets/Pallete.png
+  artifactKey: Guid(b96de3ebef17dfb49bdc45733bc1b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPolyAssets/Pallete.png using Guid(b96de3ebef17dfb49bdc45733bc1b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1038a792dc260b2fae9847cf6e450e83') in 0.1026415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.936949 seconds.
+  path: Assets/Sprites/individuals files/barrel.fbx
+  artifactKey: Guid(482d192285785be4d94ecbeb3851e690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/barrel.fbx using Guid(482d192285785be4d94ecbeb3851e690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bad6ce62574659009ee7ba20d57668a9') in 0.1831273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/individuals files/beam_001.fbx
+  artifactKey: Guid(1eb1c9470af177b449006a27e064417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/beam_001.fbx using Guid(1eb1c9470af177b449006a27e064417a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec8333f9bb15565faaafedecb1f4fa54') in 0.0713531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/individuals files/shelf.fbx
+  artifactKey: Guid(603662698c2e4fd4b95053dec350070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/shelf.fbx using Guid(603662698c2e4fd4b95053dec350070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdf1b5bd253593051b17174b6956a9e') in 0.0606389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/individuals files/gems_007.fbx
+  artifactKey: Guid(bccbaabe0ac7a3c4db1559339cea741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/gems_007.fbx using Guid(bccbaabe0ac7a3c4db1559339cea741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81cef8fb9b5c97e00adab779fe5201e3') in 0.0699329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/individuals files/floor_001.fbx
+  artifactKey: Guid(cfb900a8bb07e234a8825fdb3b51cf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/floor_001.fbx using Guid(cfb900a8bb07e234a8825fdb3b51cf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456744bea48864e54751f6f09f00d890') in 0.0660323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/individuals files/floor_003.fbx
+  artifactKey: Guid(0740161d082958743afa2a4f5faeb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/floor_003.fbx using Guid(0740161d082958743afa2a4f5faeb513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd4bd1d654fe08231a8f60bc5db3704a') in 0.0630283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/individuals files/coffin.fbx
+  artifactKey: Guid(fce0f781a6f21ed429cf1209c6a43575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/coffin.fbx using Guid(fce0f781a6f21ed429cf1209c6a43575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cce445f13cc0db3392dde5c3701ba01') in 0.1037858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/individuals files/torch.fbx
+  artifactKey: Guid(f52787de2d0e33a4bb87b3cb77734059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/torch.fbx using Guid(f52787de2d0e33a4bb87b3cb77734059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13a38facb1a4b00b238a5be10d389f65') in 0.0892398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/individuals files/trap_002.fbx
+  artifactKey: Guid(a16089dd6e47bc94f9a85a1afa648a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/trap_002.fbx using Guid(a16089dd6e47bc94f9a85a1afa648a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b8dac8591649196d1c0e3d9b9f0e82b') in 0.0862524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/individuals files/rampflat_002.fbx
+  artifactKey: Guid(615b96c1115c5704fba9751c12b5adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/rampflat_002.fbx using Guid(615b96c1115c5704fba9751c12b5adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7963804daabc57f656c4329aed4fee') in 0.068165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/individuals files/potion.fbx
+  artifactKey: Guid(da9e4f1168326384fb43e2e0147f3643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/potion.fbx using Guid(da9e4f1168326384fb43e2e0147f3643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26a964838b3a3230da9bf42e0435550a') in 0.0645909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/individuals files/gems_001.fbx
+  artifactKey: Guid(a844d009e44a3a1419bf4ab95a067867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/gems_001.fbx using Guid(a844d009e44a3a1419bf4ab95a067867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a9cdf3847e5f651920e0d0086ebdfde') in 0.056918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/individuals files/rampflat_001.fbx
+  artifactKey: Guid(2bb5876cc64b67b4b93987e0d9b73ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/rampflat_001.fbx using Guid(2bb5876cc64b67b4b93987e0d9b73ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4d593125553565004d311c17f62da0') in 0.0882115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/individuals files/vase_001.fbx
+  artifactKey: Guid(285f50d51ae74b647be95b31c6ce4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/vase_001.fbx using Guid(285f50d51ae74b647be95b31c6ce4bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d83c1c0231b34dd89a82e77a5a9f1c') in 0.0689814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/individuals files/stair.fbx
+  artifactKey: Guid(6cff053b577ff3948af5f4a5ea2e075b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/stair.fbx using Guid(6cff053b577ff3948af5f4a5ea2e075b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba7148db05c2b8e9e622dbcf3edc7b8') in 0.1167843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/individuals files/rampflate.fbx
+  artifactKey: Guid(356b1747fe67ac649b88a438d0841f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/rampflate.fbx using Guid(356b1747fe67ac649b88a438d0841f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53bf23aaa7213fa2562f9db9bb6fb1b2') in 0.0710484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/individuals files/cage.fbx
+  artifactKey: Guid(23007abb99d8cc64fab2343b74e7d33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/cage.fbx using Guid(23007abb99d8cc64fab2343b74e7d33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '593cb1f1f8d3f07ca0aec0971236e574') in 0.0557022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/individuals files/gems_008.fbx
+  artifactKey: Guid(e07ee0a3bb191884eae4ab24ee221b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/gems_008.fbx using Guid(e07ee0a3bb191884eae4ab24ee221b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6352ca590dd8fad24b3a1a72db68b617') in 0.0624175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/individuals files/stonebed.fbx
+  artifactKey: Guid(00e4ffd7f3975654cadf546772ff7a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/stonebed.fbx using Guid(00e4ffd7f3975654cadf546772ff7a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f907cc63701805a9bd303a16b569fe3') in 0.0811188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/individuals files/ironwalls_001.fbx
+  artifactKey: Guid(2b32b8b5972482445954fa1764a4e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/ironwalls_001.fbx using Guid(2b32b8b5972482445954fa1764a4e8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '000fdcdff52fdd2125333b64213dc73a') in 0.0558107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/individuals files/crank.fbx
+  artifactKey: Guid(4ff008384c8bb5d409b1014b0a464348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/crank.fbx using Guid(4ff008384c8bb5d409b1014b0a464348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c310d9db78f3a89cf75b6d3eb13800') in 0.0899842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/individuals files/torchholder.fbx
+  artifactKey: Guid(df843881cb87b2142882933c6262ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/torchholder.fbx using Guid(df843881cb87b2142882933c6262ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '724a73de19bc0b58808b141b8cad48ee') in 0.0642702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/individuals files/beam_002.fbx
+  artifactKey: Guid(6cf50ac20c5b6544185929066ee632ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/beam_002.fbx using Guid(6cf50ac20c5b6544185929066ee632ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee3940a44e31dfa362de1d7c35e3a865') in 0.0913773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.796233 seconds.
+  path: Assets/Sprites/individuals files/walls_001.fbx
+  artifactKey: Guid(83363361554787f4d8b33b3e0856ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_001.fbx using Guid(83363361554787f4d8b33b3e0856ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '361484ab04c78aacea4b96511d7bc30b') in 0.083263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/individuals files/wallslittle_001.fbx
+  artifactKey: Guid(af229351ab0d411409fc196f18581d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/wallslittle_001.fbx using Guid(af229351ab0d411409fc196f18581d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeaa346af12be1ed75ed8566640453f4') in 0.0577224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/individuals files/walls_002.fbx
+  artifactKey: Guid(8c6b7a3e12dd79c48be7ae0d666cb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_002.fbx using Guid(8c6b7a3e12dd79c48be7ae0d666cb948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daa769fd8ee45f802678671304b9bcdd') in 0.0797175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/individuals files/walls_012.fbx
+  artifactKey: Guid(d75c242d7c0e08a43b19c40bac3d3240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_012.fbx using Guid(d75c242d7c0e08a43b19c40bac3d3240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c41b44e17e72d036870b6a53e5aff9a6') in 0.0431173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/individuals files/woodbox_002.fbx
+  artifactKey: Guid(1c30df10352609944b8ac359159d418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/woodbox_002.fbx using Guid(1c30df10352609944b8ac359159d418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03c2d0e221013af84324ed1be7738be') in 0.0539194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/individuals files/walls_010.fbx
+  artifactKey: Guid(b83b9baf6b75f0945b6367b90337be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_010.fbx using Guid(b83b9baf6b75f0945b6367b90337be2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff273ec2307931bded80f82a3a974be3') in 0.0463688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/individuals files/walls_005.fbx
+  artifactKey: Guid(4da7a1c768268244fbdcac3db504cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_005.fbx using Guid(4da7a1c768268244fbdcac3db504cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa775226322582988b37811e5be703e') in 0.0764322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/individuals files/woodbox_003.fbx
+  artifactKey: Guid(04bb1aac0a4b8114b94b1f7c0ade9d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/woodbox_003.fbx using Guid(04bb1aac0a4b8114b94b1f7c0ade9d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c8452e4186c6ed6cadfde3950550ee8') in 0.0574055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/individuals files/walls_009.fbx
+  artifactKey: Guid(f11d7ae077d328342b68145fd4a96537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_009.fbx using Guid(f11d7ae077d328342b68145fd4a96537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3dcdabf40cfee0cde29700517805422') in 0.086276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/individuals files/wallslittle_002.fbx
+  artifactKey: Guid(a05a4957e3aaac540b8f8450955af47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/wallslittle_002.fbx using Guid(a05a4957e3aaac540b8f8450955af47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '180093509159d58fd030d55b084c4e9c') in 0.0543326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/individuals files/walls_006.fbx
+  artifactKey: Guid(ccd0581ca4093074c836327c9a42aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/walls_006.fbx using Guid(ccd0581ca4093074c836327c9a42aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce924ccefe73548fcd9a8eb3f3928192') in 0.0823779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/individuals files/woodchair.fbx
+  artifactKey: Guid(2a64addba74150244b981ea385016a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/individuals files/woodchair.fbx using Guid(2a64addba74150244b981ea385016a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '086d7eae3daecbb0e7064eab4cd2ab0e') in 0.0521817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.529813 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Bush_2.fbx
+  artifactKey: Guid(d3d842986416b65428003a4d934f82b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Bush_2.fbx using Guid(d3d842986416b65428003a4d934f82b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00f4ebac67a6369ff690dffbfa86e807') in 0.059978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Tree_2.fbx
+  artifactKey: Guid(256ee5909449ede41b400606170c126c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Tree_2.fbx using Guid(256ee5909449ede41b400606170c126c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88a4071af7ce5f3d5b077df2813f7e7e') in 0.115178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Log_3.fbx
+  artifactKey: Guid(ac4738124b0ae3344ac0f018fba6f15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Log_3.fbx using Guid(ac4738124b0ae3344ac0f018fba6f15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b542cbabfc73efd54d5a8b22bd7ea58') in 0.0515962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Bush_3.fbx
+  artifactKey: Guid(5a19322c4acb81b4d8e78b179f139422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Bush_3.fbx using Guid(5a19322c4acb81b4d8e78b179f139422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47522049ee079fd0eb7c208d85a244a0') in 0.0572896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Plant_2.fbx
+  artifactKey: Guid(92c7d332f4549114fb4d5ad5054867f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Plant_2.fbx using Guid(92c7d332f4549114fb4d5ad5054867f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f04c391764ae99a7007037299c3624') in 0.0476781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Log_2.fbx
+  artifactKey: Guid(4f51b7e66579d8342b71f473eeb52f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Log_2.fbx using Guid(4f51b7e66579d8342b71f473eeb52f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61fd56b791535660c442aa0310d392be') in 0.0575896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Log_1.fbx
+  artifactKey: Guid(323bd99d98915de478ecded4349d1076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Log_1.fbx using Guid(323bd99d98915de478ecded4349d1076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad229affd241cc0feebf892eec39fa49') in 0.0503899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Stone_1.fbx
+  artifactKey: Guid(0ba898942f035d449b1168a9b4ebd342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Stone_1.fbx using Guid(0ba898942f035d449b1168a9b4ebd342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3477bfd5430f291c8ca314fd59226eb') in 0.0424969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Rock_5.fbx
+  artifactKey: Guid(0083fc4a5564b064e87d218e35b0c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Rock_5.fbx using Guid(0083fc4a5564b064e87d218e35b0c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e28dcc48a7933fe7fcd3240d360dcd') in 0.0417068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Rock_2.fbx
+  artifactKey: Guid(f0a836a774bd7f74e9516cbd4cea4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Rock_2.fbx using Guid(f0a836a774bd7f74e9516cbd4cea4f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f09d16085acae0f6e7ae3f22c19485f9') in 0.040308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Environment_1.fbx
+  artifactKey: Guid(402e603ed6e36f14d89289e48972f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Environment_1.fbx using Guid(402e603ed6e36f14d89289e48972f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac179e0d8508a0e3ded8bf8c42e6538e') in 0.0424199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Terrain_2.fbx
+  artifactKey: Guid(e747557530c7153429bfd7b72bd3f7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Terrain_2.fbx using Guid(e747557530c7153429bfd7b72bd3f7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ce3961afa7a38adff104dac479cb769') in 0.0433976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Plant_4.fbx
+  artifactKey: Guid(9863e565f7c31eb41be06e1042881de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Plant_4.fbx using Guid(9863e565f7c31eb41be06e1042881de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8414494f691dc70255924468a4413c') in 0.0413606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Rock_3.fbx
+  artifactKey: Guid(b5c16b2764c2c3548a1fd10c996b150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Rock_3.fbx using Guid(b5c16b2764c2c3548a1fd10c996b150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2812d5b8dc1837559792bed4febba7bc') in 0.0451622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Plant_1.fbx
+  artifactKey: Guid(c682a1423e7c85d409474bead3f88db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Plant_1.fbx using Guid(c682a1423e7c85d409474bead3f88db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7489cfe6cadbfe7e2dff80801458536f') in 0.0425524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/LowPoly Environment Pack/Grass_2.fbx
+  artifactKey: Guid(c470c78493e064e4a9b5367da9718adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LowPoly Environment Pack/Grass_2.fbx using Guid(c470c78493e064e4a9b5367da9718adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92658aac85e8f2be454679147afff34e') in 0.0382578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
