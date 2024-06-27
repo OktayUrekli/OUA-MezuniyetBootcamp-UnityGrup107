@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Directories\\UnityProjects\\Grup107\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|c:\\directories\\unityprojects\\grup107\\assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaleNPC1Behaviour.cs",
+              "DocumentMoniker": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "ToolTip": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowFEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:10:38.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
