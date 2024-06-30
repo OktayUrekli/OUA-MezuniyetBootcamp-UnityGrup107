@@ -43,5 +43,6 @@
       "description": "This sample demonstrates how Timeline can be used to create a small in-game moment, using built-in Timeline tracks.",
       "path": "Samples~/GameplaySequenceDemo"
     }
-  ]
+  ],
+  "_fingerprint": "9ac0df085fa85d0d1f0b83dd933674497fd2774e"
 }

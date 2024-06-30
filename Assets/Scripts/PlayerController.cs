@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
+{   
+    [SerializeField] private float playerHealth = 100f;
     public float walkSpeed = 2f;
     public float runSpeed = 6f;
     public float crouchSpeed = 1f;
@@ -16,10 +17,15 @@ public class PlayerController : MonoBehaviour
 
     private bool isCrouching = false;
     private bool isGrounded = true;
+    public bool isDead = false;
 
     private bool rotateCharacter = false;
     private float rotationSpeed = 180f;
 
+    public bool IsDead
+    {
+        get { return isDead; }
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -28,31 +34,34 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Move();
-        RotatePlayer();
-        Crouch();
-
-        if (Input.GetButtonDown("Jump") && isGrounded && !isCrouching)
+        if (!isDead)
         {
-            animator.SetTrigger("Jump");
-        }
+            Move();
+            RotatePlayer();
+            Crouch();
 
-        UpdateAnimator();
+            if (Input.GetButtonDown("Jump") && isGrounded && !isCrouching)
+            {
+                animator.SetTrigger("Jump");
+            }
 
-        if (Input.GetMouseButtonDown(1))
-        {
-            rotateCharacter = true;
-        }
+            UpdateAnimator();
 
-        if (Input.GetMouseButtonUp(1))
-        {
-            rotateCharacter = false;
+            if (Input.GetMouseButtonDown(1))
+            {
+                rotateCharacter = true;
+            }
+
+            if (Input.GetMouseButtonUp(1))
+            {
+                rotateCharacter = false;
+            }
         }
     }
 
     void FixedUpdate()
     {
-        if (rotateCharacter)
+        if (!isDead && rotateCharacter)
         {
             float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.fixedDeltaTime;
             transform.Rotate(Vector3.up, mouseX);
@@ -113,12 +122,52 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void TakeDamage(float damage)
+    {
+        playerHealth -= damage;
+        Debug.Log("Player health: " + playerHealth);
+
+        if (playerHealth <= 0 && !isDead)
+        {
+            Death();
+        }
+
+        UpdateUI();
+    }
+
+    void Death()
+    {
+        isDead = true;
+        animator.SetTrigger("Dying");
+        Debug.Log("You died!");
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
             UpdateAnimator();
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("You got hit.");
+
+            EnemyController enemy = collision.gameObject.GetComponent<EnemyController>();
+            if (enemy != null)
+            {
+                TakeDamage(enemy.attackDamage);
+            }
+        }
+    }
+
+    void UpdateUI()
+    {
+        PlayerUI playerUI = FindObjectOfType<PlayerUI>();
+        if (playerUI != null)
+        {
+            playerUI.UpdateHealthUI(playerHealth);
         }
     }
 }
