@@ -42,3 +42,11 @@ The following packages were updated:
   com.unity.feature.development from version 1.0.1 to 1.0.2
   com.unity.timeline from version 1.6.2 to 1.8.6
   com.unity.visualscripting from version 1.7.6 to 1.8.0
+
+=== Mon Jul  1 15:38:27 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.5 to 2.0.0

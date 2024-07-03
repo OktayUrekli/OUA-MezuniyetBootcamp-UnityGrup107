@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|c:\\users\\selene\\documents\\github\\oua-mezuniyetbootcamp-unitygrup107\\assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|c:\\users\\selene\\documents\\github\\oua-mezuniyetbootcamp-unitygrup107\\assets\\scripts\\npcinteractionsystem\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractionsystem\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\assets\\scripts\\npcinteractionsystem\\interactionmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractionsystem\\interactionmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|c:\\users\\selene\\documents\\github\\oua-mezuniyetbootcamp-unitygrup107\\assets\\scripts\\npcinteractionsystem\\interactionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C05B2B-21B3-D810-46C2-3D240D10ED6D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteractionsystem\\interactionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaleNPC1Behaviour.cs",
+              "DocumentMoniker": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "ToolTip": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAArwEsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T14:23:49.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InteractionPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteractionSystem\\InteractionPanel.cs",
+              "ToolTip": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcInteractionSystem\\InteractionPanel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAzwB0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:57:49.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InteractionMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteractionSystem\\InteractionMovement.cs",
+              "ToolTip": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcInteractionSystem\\InteractionMovement.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:16:40.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InteractionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcInteractionSystem\\InteractionManager.cs",
+              "ToolTip": "C:\\Users\\Selene\\Documents\\GitHub\\OUA-MezuniyetBootcamp-UnityGrup107\\Assets\\Scripts\\NpcInteractionSystem\\InteractionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcInteractionSystem\\InteractionManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA6wB0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:12:18.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
