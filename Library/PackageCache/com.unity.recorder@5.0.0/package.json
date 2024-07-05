@@ -62,6 +62,5 @@
       "description": "This example shows how to add \"Start Recording\" and \"Stop Recording\" menu items .",
       "path": "Samples~/RecorderEditor"
     }
-  ],
-  "_fingerprint": "8c08a9cb91d4feeeb4c3df4b3de70565138588f1"
+  ]
 }
