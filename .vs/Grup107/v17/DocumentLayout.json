@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Directories\\UnityProjects\\Grup107\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|c:\\directories\\unityprojects\\grup107\\assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|c:\\directories\\unityprojects\\grup107\\assets\\scripts\\enemy1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|C:\\Directories\\UnityProjects\\Grup107\\assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\malenpc1behaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|C:\\Directories\\UnityProjects\\Grup107\\assets\\scripts\\enemyhealthcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealthcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyHealthControl.cs",
+              "DocumentMoniker": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\EnemyHealthControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealthControl.cs",
+              "ToolTip": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\EnemyHealthControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealthControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T08:57:58.697Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Enemy1Behaviour.cs",
+              "DocumentMoniker": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\Enemy1Behaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy1Behaviour.cs",
+              "ToolTip": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\Enemy1Behaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy1Behaviour.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAIwH4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:55:32.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MaleNPC1Behaviour.cs",
               "DocumentMoniker": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
               "ToolTip": "C:\\Directories\\UnityProjects\\Grup107\\Assets\\Scripts\\MaleNPC1Behaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\MaleNPC1Behaviour.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowFEAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:10:38.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T08:10:38.365Z"
             }
           ]
         }

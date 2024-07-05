@@ -6,11 +6,12 @@ TagManager:
   tags:
   - NPC1
   - NPC2
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NavMeshGround
   - Water
   - UI
   - 

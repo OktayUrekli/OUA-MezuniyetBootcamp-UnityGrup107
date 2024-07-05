@@ -60,7 +60,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyHealthControl.cs" />
     <Compile Include="Assets\Scripts\MaleNPC1Behaviour.cs" />
+    <Compile Include="Assets\Scripts\Enemy1Behaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ModelAssets\Free Medieval 3D People Low Poly Pack\readme.txt" />
