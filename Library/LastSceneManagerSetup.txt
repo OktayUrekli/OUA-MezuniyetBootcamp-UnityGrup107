@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Enemy.unity
+=======
+- path: Assets/Scenes/NpcInteraction.unity
+>>>>>>> ed807b410a7efa7ad6ff8a479e668a20c929cb97
   isLoaded: 1
   isActive: 1
   isSubScene: 0
