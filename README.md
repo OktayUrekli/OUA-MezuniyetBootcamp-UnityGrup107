@@ -14,7 +14,7 @@
 **Space Repair Adventure**
 
 ## Product Backlog URL
-[Product Backlog](https://googlebootcamp107.atlassian.net/jira/software/projects/GB/boards/1/backlog)
+[Jira Product Backlog](https://googlebootcamp107.atlassian.net/jira/software/projects/GB/boards/1/backlog)
 
 ## Kullanılacak Uygulamalar
 - **İletişim:** Discord, WhatsApp
