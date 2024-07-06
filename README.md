@@ -87,4 +87,4 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 
 ## Notlar
 - **Geliştirilmesi Gerekenler:** Daha iyi zaman yönetimi ve bazı görevlerin daha net tanımlanması gerekiyor.
-- **Aksiyon Planı:** Gelecek sprintlerde görevlerin daha net belirlenmesi ve zaman yönetimine daha fazla dikkat edilmesi.
+- **Aksiyon Planı:** Gelecek sprintlerde görevlerin daha net belirlenmesi, Jira'ya açıklamaların gerekirse ss lerin eklenmesi, görevlerin dağıtımında daha dikkatli olunması ve zaman yönetimine daha fazla dikkat edilmesi.
