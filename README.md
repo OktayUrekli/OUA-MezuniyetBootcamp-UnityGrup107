@@ -39,7 +39,8 @@
 - **Yaş Grubu:** 12+
 - **Oyun Tarzı:** Macera, bulmaca ve aksiyon oyunlarını sevenler, hikaye ve survival oyunları sevenler.
 - **Platform:** PC ve Mobil
-
+ 
+________________________________________
 
 # Sprint 1
 ### Sprint Düzeni
@@ -52,6 +53,8 @@
 
 ### Backlog Düzeni ve Epic Kullanımı
 Proje için tamamlanması gereken ana tasklar epic olarak timeline'a not edilmiştir. Epiclerin altına da bu epic'i tamamlamak için gereken subtasklar girilip gerekli ekip üyelerine atanmıştır.
+![image](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/94397322-c074-410f-94b3-08e65311e1a3)
+
 
 ### Daily Scrum
 WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana görevlerin belirlenmesi ile birlikte Discord üzerinden tasarım, yazılım, planlama ve kaynak kullanımı odaklı kanallar oluşturulmuş ve gerekli konuşmalar ve paylaşımlar oradan düzenli olarak yapılmaktadır.
@@ -60,9 +63,15 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 - **Yazılım Ekibi:** Oktay, Okan, Selene
 - **Tasarım Ekibi:** Selen, Selin
 
+[WP/DC Screenshots](https://drive.google.com/drive/folders/1oLfv0cPwilMFoxl8AYUgNgmxMHvE-btH?usp=sharing)
+
 ### Sprint Board Updates
 - **Sprint Board:** Jira kullanılarak güncellenmiştir.
 - **Görevlerin Durumu:** Jira Board
+![image](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/321f2c74-546b-4aed-b4ea-f35efe68267f)
+
+
+### Ürün Durumu
 
 ### Sprint Review
 - **Katılımcılar:** Tüm takım üyeleri
