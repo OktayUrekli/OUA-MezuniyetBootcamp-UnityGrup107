@@ -73,6 +73,13 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 
 ### Ürün Durumu
 
+https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/021f4a72-5483-4898-b572-72819a553c20
+
+
+https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/6989a618-3fe4-4874-9138-9b7ff36d8a6c
+
+
+
 ### Sprint Review
 - **Katılımcılar:** Tüm takım üyeleri
 - **Özet:** İlk iki bölgenin kaba taslak tasarımı tamamlandı. Temel hareket ve savaşma mekanikleri geliştirildi. İlk bulmacaların ve tuzakların tasarımına başlandı. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı.
