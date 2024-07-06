@@ -16,7 +16,7 @@
 ## Product Backlog URL
 [Product Backlog](https://googlebootcamp107.atlassian.net/jira/software/projects/GB/boards/1/backlog)
 
-## Kullanılacak Uygulamalar:
+## Kullanılacak Uygulamalar
 - **İletişim:** Discord, WhatsApp
 - **Görev Dağılımı ve Takip:** Jira
 - **Tasarım:** Figma, Blender
@@ -40,7 +40,8 @@
 - **Oyun Tarzı:** Macera, bulmaca ve aksiyon oyunlarını sevenler, hikaye ve survival oyunları sevenler.
 - **Platform:** PC ve Mobil
 
-## Sprint 1
+
+# Sprint 1
 ### Sprint Düzeni
 - **Sprint İçi Tamamlanacak Puan:** 40 puan
 - **Tahmin Mantığı:** Proje boyunca tamamlanması gereken backlog puanı 100 olarak belirlenmiştir. İlk sprint önemli görevlerin tamamlanmasına, diğer sprintlerde ise detayların düzeltilmesine karar verilmiştir. Bu nedenle ilk sprintin puan durumu projenin toplam puanının 3'te 1'inden fazladır. Sprint 1 için bitirilmesi istenilen puan sayısı 40 olarak belirlenmiştir ve hedefe ulaşılmıştır.
