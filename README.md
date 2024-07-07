@@ -80,7 +80,7 @@ https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/7364726
 
 
 ### Sprint Review
-- **Katılımcılar:** Tüm takım üyeleri
+- **Katılımcılar:** Oktay, Okan, Selen, Selene
 - **Özet:** İlk iki bölgenin kaba taslak tasarımı tamamlandı. Temel hareket ve savaşma mekanikleri geliştirildi. İlk bulmacaların ve tuzakların tasarımına başlandı. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun genel görünümüne karar verildi. Referans görselleri paylaşıldı ve kullanılacak renk paleti ve shader tipleri kararlaştırıldı.
 - **Referans Görselleri:**
 ![image](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/d5231b6d-0820-4a11-8a4d-ca72309c56c1)![image](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/679baefa-a4e7-4bee-9903-5f3f21d90f9d)
