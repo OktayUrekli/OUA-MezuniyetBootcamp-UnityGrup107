@@ -68,7 +68,7 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 ### Sprint Board Updates
 - **Sprint Board:** Jira kullanılarak güncellenmiştir.
 - **Görevlerin Durumu:** Jira Board
-![image](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/321f2c74-546b-4aed-b4ea-f35efe68267f)
+![Screenshot 2024-07-07 134052](https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/73647260/cfda2374-188c-4669-8f1b-cd1c6f8bc302)
 
 
 ### Ürün Durumu
