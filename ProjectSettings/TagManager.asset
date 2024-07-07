@@ -3,15 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - NPC1
-  - NPC2
-  - Bullet
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - NavMeshGround
+  - 
   - Water
   - UI
   - 
