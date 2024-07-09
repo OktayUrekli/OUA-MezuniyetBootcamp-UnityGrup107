@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c0d2547f98835844d92f3d0708f62278
+timeCreated: 1515538712
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100809
+  packageName: 'FlatPoly: Floating Islands'
+  packageVersion: 1.0
+  assetPath: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_02.prefab
+  uploadId: 223355
