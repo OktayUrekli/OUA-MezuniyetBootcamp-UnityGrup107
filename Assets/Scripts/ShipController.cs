@@ -5,18 +5,19 @@ public class ShipController : MonoBehaviour
     public float speed = 10f;
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+    public float bulletSpeed = 20f; // Speed of the bullet
 
     private Rigidbody rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.useGravity = false; 
+        rb.useGravity = false;
     }
 
     void Update()
     {
-        // Movement using Rigidbody physics
+        // Movement
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
@@ -32,6 +33,13 @@ public class ShipController : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+
+        // Calculate direction towards asteroids
+        Vector3 direction = (bulletSpawn.position - transform.position).normalized;
+
+        // Apply velocity to the bullet
+        Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
+        bulletRb.velocity = direction * bulletSpeed;
     }
 }
