@@ -31,5 +31,10 @@ public class Asteroid : MonoBehaviour
 
             Destroy(gameObject);
         }
+        else if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(collision.gameObject); // Destroy the bullet
+            Destroy(gameObject); // Destroy the asteroid
+        }
     }
 }

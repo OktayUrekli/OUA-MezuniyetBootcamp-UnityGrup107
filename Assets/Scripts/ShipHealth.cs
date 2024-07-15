@@ -4,10 +4,12 @@ using TMPro;
 
 public class ShipHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
-    private int currentHealth;
-    public Slider shipHealth;
-    public TextMeshProUGUI healthText; // Reference to the health text
+    public int maxHealth = 100; // Maximum health of the player
+    private int currentHealth; // Current health of the player
+    public Slider shipHealth; // Reference to the health slider UI
+    public TextMeshProUGUI healthText; // Reference to the health text UI
+    public GameObject loseImage; // Reference to the "Lose" image
+    public ShipController shipController; // Reference to the ShipController script for shooting control
 
     void Start()
     {
@@ -36,6 +38,13 @@ public class ShipHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Player died!");
+        // Show the "Lose" image
+        loseImage.SetActive(true);
+
+        // Pause the game
+        Time.timeScale = 0f;
+
+        // Disable shooting by setting canShoot to false in ShipController
+        shipController.canShoot = false;
     }
 }

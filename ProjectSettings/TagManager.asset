@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Boundary
   - Asteroid
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Bullet
+  - Asteroid
   - 
   - 
   - 

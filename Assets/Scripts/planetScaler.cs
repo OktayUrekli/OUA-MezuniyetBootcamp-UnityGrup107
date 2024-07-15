@@ -1,25 +1,14 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class planetScaler : MonoBehaviour
 {
     public float maxScale = 100f; // Maximum scale of the planet
-    public Slider timerSlider; // Reference to the TimerSlider UI component
-
-    private float initialScale; // Initial scale of the planet
-    private float scaleDuration = 60f; // Duration in seconds to reach max scale
 
     void Start()
     {
-        // Get initial time remaining from TimerSlider (assuming normalized 0 to 1)
-        float initialTimeRemaining = 1f - timerSlider.value;
-
-        // Calculate initial scale based on initial time remaining
-        initialScale = Mathf.Lerp(1f, maxScale, initialTimeRemaining);
-
         // Set initial scale of the planet
-        transform.localScale = new Vector3(initialScale, initialScale, 1f); // Assuming the planet is on XY plane
+        transform.localScale = Vector3.one; // Assuming the planet starts at scale 1
 
         // Start scaling coroutine
         StartCoroutine(ScalePlanetOverTime());
@@ -28,14 +17,15 @@ public class planetScaler : MonoBehaviour
     IEnumerator ScalePlanetOverTime()
     {
         float timer = 0f;
+        float duration = 60f; // Scale over 60 seconds
 
-        while (timer < scaleDuration)
+        while (timer < duration)
         {
             timer += Time.deltaTime;
 
             // Calculate scale factor based on current time remaining
-            float timeRatio = timer / scaleDuration;
-            float scaleFactor = Mathf.Lerp(initialScale, maxScale, timeRatio);
+            float timeRatio = timer / duration;
+            float scaleFactor = Mathf.Lerp(1f, maxScale, timeRatio);
 
             // Apply scale to the planet object
             transform.localScale = new Vector3(scaleFactor, scaleFactor, 1f); // Assuming the planet is on XY plane
