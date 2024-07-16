@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1836ebbbd0b04bb44b2e7a5b1f54d69f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Models/Character.controller
+  uploadId: 557596

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04c773478d0ec7d46a80d8b611f43c5f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Materials/Black.mat
+  uploadId: 557596

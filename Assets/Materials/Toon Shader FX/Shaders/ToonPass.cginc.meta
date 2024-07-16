@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ad7de65cc18bc52409273b2779e0e444
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Shaders/ToonPass.cginc
+  uploadId: 557596

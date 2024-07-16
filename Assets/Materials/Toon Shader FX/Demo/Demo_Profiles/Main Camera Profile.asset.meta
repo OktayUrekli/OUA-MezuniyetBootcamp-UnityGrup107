@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1138fe96450a6424aa11a0ddc2d7f9b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Demo_Profiles/Main Camera Profile.asset
+  uploadId: 557596

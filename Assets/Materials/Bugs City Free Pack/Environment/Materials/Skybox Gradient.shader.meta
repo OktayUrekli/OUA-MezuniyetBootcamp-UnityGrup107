@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 800cfd552b4419449ade9b8720db8674
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 225810
+  packageName: Mushroom House Ant FREE with Toon Shader
+  packageVersion: 1.0
+  assetPath: Assets/Bugs City Free Pack/Environment/Materials/Skybox Gradient.shader
+  uploadId: 603448

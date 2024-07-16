@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a54aebfdf4a66be44976288e9e769ae2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Shaders/Toon.shader
+  uploadId: 557596

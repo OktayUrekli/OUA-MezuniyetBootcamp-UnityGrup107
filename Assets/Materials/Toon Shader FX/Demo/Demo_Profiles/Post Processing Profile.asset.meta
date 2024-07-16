@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f529d37c096ce1641b55130a399cc702
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Demo_Profiles/Post Processing Profile.asset
+  uploadId: 557596

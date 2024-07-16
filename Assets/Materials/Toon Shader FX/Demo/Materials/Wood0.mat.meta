@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68f8dda6089770542856211d2dd67eaf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Materials/Wood0.mat
+  uploadId: 557596

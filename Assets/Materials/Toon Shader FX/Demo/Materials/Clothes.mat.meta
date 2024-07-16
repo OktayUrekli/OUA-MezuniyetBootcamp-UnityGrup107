@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 845be6e4db73a2c449cf08b5f448afe8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Materials/Clothes.mat
+  uploadId: 557596

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3947d9fe7fd89a647b6343c8bfc0d8a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Materials/Berry.mat
+  uploadId: 557596

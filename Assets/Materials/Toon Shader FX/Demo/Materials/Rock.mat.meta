@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd5f4d96adbc2b54d943233f0d1d37cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Materials/Rock.mat
+  uploadId: 557596

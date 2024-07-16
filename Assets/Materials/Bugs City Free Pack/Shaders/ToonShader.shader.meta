@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 86f3d8a9222115b48867dfe896a34376
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 225810
+  packageName: Mushroom House Ant FREE with Toon Shader
+  packageVersion: 1.0
+  assetPath: Assets/Bugs City Free Pack/Shaders/ToonShader.shader
+  uploadId: 603448

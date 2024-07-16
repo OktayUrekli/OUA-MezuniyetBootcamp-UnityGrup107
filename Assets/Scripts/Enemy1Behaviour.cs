@@ -79,8 +79,15 @@ public class Enemy1Behaviour : MonoBehaviour
         {
             inAttackRange = true;
             enemyAnimator.SetFloat("Speed", 0);
-            enemyAnimator.SetBool("Attack", inAttackRange);
+            Invoke("Attack", 2f);
+
         }
+    }
+
+    void Attack()
+    {
+        Debug.Log("saldýrdý");
+        enemyAnimator.SetBool("Attack", inAttackRange);
     }
 
     private void OnCollisionExit(Collision collision)

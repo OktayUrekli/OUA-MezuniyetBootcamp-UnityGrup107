@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e864f0f9485b944d9410d8eb9dd9cee
+timeCreated: 1556232563
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 150115
+  packageName: Toon Shader FX
+  packageVersion: 1.0
+  assetPath: Assets/Toon Shader FX/Demo/Demo.unity
+  uploadId: 557596

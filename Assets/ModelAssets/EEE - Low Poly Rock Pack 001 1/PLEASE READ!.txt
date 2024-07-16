@@ -1,0 +1,26 @@
+Hello! 
+
+This has been included to tell you what you need to know about this asset pack. Please read it thoroughly.
+
+
+HOW TO USE THE ASSETS
+--------------------------------------
+You can import these assets into your favourite engine(s) capable of loading 3D assets. There are three file formats you can choose from:
+
+.blend: Files created using free 3D modelling software called Blender. Some engines support .blend files but you can easily load the desired assets of choice and export them to your preferred file format.
+
+.fbx: Commonly used for applications which have compatibility with Autodesk applications (E.G. Maya, Mudbox, etc).
+
+.obj: Universally used for game engines that use 3D graphics.
+
+----------------------------
+
+If you have any questions, issues or concerns feel free to contact me through the following methods:
+
+Email: emerald.eel.entertainment@gmail.com
+Twitter: @EEEnt_OFFICIAL
+
+
+Thank you for reading!
+
+-Emerald Eel Entertainment
