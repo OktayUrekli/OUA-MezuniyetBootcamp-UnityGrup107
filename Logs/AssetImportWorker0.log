@@ -1002,3 +1002,19 @@ Received Import Request.
 Start importing Assets/Art/ThirdParty/WellAsset using Guid(80ca26d71faefd643b34ec5f2aac4aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '399303d6766284abd1983a898ace3849') in 0.0005526 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 715.592936 seconds.
+  path: Assets/Scenes/NpcInteraction.unity
+  artifactKey: Guid(c16da5583d17b7048a3cfaea6b83a4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NpcInteraction.unity using Guid(c16da5583d17b7048a3cfaea6b83a4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '214ce4ab07483a9238ed1ba6ca849d97') in 0.0009775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.571262 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  artifactKey: Guid(34001f994e858a94eb1cc4c54ceffd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dungeon.unity using Guid(34001f994e858a94eb1cc4c54ceffd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2abaac1d8c6bbb76c28a5ff25327bbb') in 0.0007981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
