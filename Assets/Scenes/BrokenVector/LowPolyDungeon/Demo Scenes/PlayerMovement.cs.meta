@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e478c0cc6d326d0428f3ef40bdce5aca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143535
+  packageName: Ultimate Low Poly Dungeon
+  packageVersion: 2.0
+  assetPath: Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs
+  uploadId: 481753

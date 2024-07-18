@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c7f74f16e3c3bb49a9bed63da51a052
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143535
+  packageName: Ultimate Low Poly Dungeon
+  packageVersion: 2.0
+  assetPath: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Wall_Window.prefab
+  uploadId: 481753

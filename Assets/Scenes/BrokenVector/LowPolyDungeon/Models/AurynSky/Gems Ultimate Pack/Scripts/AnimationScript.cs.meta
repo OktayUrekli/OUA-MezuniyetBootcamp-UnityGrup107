@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9ff967b7ed48f2441bcf509edf6b889a
+timeCreated: 1476391416
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73764
+  packageName: Simple Gems Ultimate Animated Customizable Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs
+  uploadId: 326327
