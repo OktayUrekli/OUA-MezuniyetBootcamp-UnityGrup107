@@ -30,7 +30,6 @@
 - Birden fazla level (level atlama/kademeli map açılımı)
 - NPC interaksiyonu ve diyaloglar
 - 3D
-- Oyun içi mağaza
 - Hareket etme, savaşma, ateş etme, ışınlanma mekanikleri
 - Çözülmesi gereken bulmacalar ve kaçınılması gereken tuzaklar
 - Oyuncuyu takip eden ve engellemeye çalışan ML Agent ile güçlendirilmiş düşmanlar
