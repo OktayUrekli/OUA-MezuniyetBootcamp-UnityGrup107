@@ -3,12 +3,7 @@ guid: e5ae62ca7b11dc442a8ce33cd2e1891f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Oak_Leaves
-    second: {fileID: 2100000, guid: 9ff8e3bf8bbbd75429ab4490d8c1a5a6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
