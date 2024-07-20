@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8442ff07dd71bb48be63de4bffeeb34
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143535
+  packageName: Ultimate Low Poly Dungeon
+  packageVersion: 2.0
+  assetPath: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_toStaircase_Bottom.prefab
+  uploadId: 481753

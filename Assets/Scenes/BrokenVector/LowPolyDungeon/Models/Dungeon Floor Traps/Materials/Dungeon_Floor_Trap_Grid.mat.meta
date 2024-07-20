@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0fe9382f4a6cfc24fabab1f27ce1e7fa
+timeCreated: 1486576073
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77765
+  packageName: Dungeon Floor Traps
+  packageVersion: 1.1
+  assetPath: Assets/Dungeon Floor Traps/Materials/Dungeon_Floor_Trap_Grid.mat
+  uploadId: 161359

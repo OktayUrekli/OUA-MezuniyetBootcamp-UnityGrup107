@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 390c3e301d761084694df43e15a0d9bb
+timeCreated: 1486723566
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77765
+  packageName: Dungeon Floor Traps
+  packageVersion: 1.1
+  assetPath: Assets/Dungeon Floor Traps/Prefabs/PBR/Dungeon_Floor_Trap_Round.prefab
+  uploadId: 161359
