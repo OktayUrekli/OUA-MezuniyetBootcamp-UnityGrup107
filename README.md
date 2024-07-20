@@ -107,3 +107,53 @@ https://github.com/OktayUrekli/OUA-MezuniyetBootcamp-UnityGrup107/assets/7364726
 ## Notlar
 - **Geliştirilmesi Gerekenler:** Daha iyi zaman yönetimi ve bazı görevlerin daha net tanımlanması gerekiyor.
 - **Aksiyon Planı:** Gelecek sprintlerde görevlerin daha net belirlenmesi, Jira'ya açıklamaların gerekirse ss lerin eklenmesi, görevlerin dağıtımında daha dikkatli olunması ve zaman yönetimine daha fazla dikkat edilmesi.
+
+________________________________________
+
+# Sprint 2
+### Sprint Düzeni
+- **Sprint İçi Tamamlanacak Puan:** 35 puan
+- **Tahmin Mantığı:** Proje boyunca tamamlanması gereken backlog puanı 100 olarak belirlenmiştir. İlk sprint önemli görevlerin tamamlanmasına, ikinci sprintte oyunun oynanabilir şekilde bişrleştirilip bitirilmesine, son sprintte ise detayşarın düzeltilip teslime hazırlanılmasına karar verilmiştir. İlk iki sprintin toplam puanı projenin 3te 1inden fazladır.
+  - Mekan tasarımlarının tamamlanması: 10 puan
+  - Oyun mekaniklerinin finalize edilmesi: 10 puan
+  - Bulmacaların belirlenmesi ve entegrasyonu: 5 puan
+  - Mekaniklerin ve tasarımların birleştirilmesi: 5 puan
+  - UI ve hikaye tasarımlarının kaba taslak yapılması: 5 puan
+
+
+### Backlog Düzeni ve Epic Kullanımı
+Proje için tamamlanması gereken ana tasklar epic olarak timeline'a not edilmiştir. Epiclerin altına da bu epic'i tamamlamak için gereken subtasklar girilip gerekli ekip üyelerine atanmıştır.
+![Screenshot 2024-07-21 021508](https://github.com/user-attachments/assets/a5095652-460e-450f-833b-c9aeb7fd6674)
+
+
+### Daily Scrum
+WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana görevlerin belirlenmesi ile birlikte Discord üzerinden tasarım, yazılım, planlama ve kaynak kullanımı odaklı kanallar oluşturulmuş ve gerekli konuşmalar ve paylaşımlar oradan düzenli olarak yapılmaktadır.
+
+- **Planlama Ekibi:** Selen, Oktay
+- **Yazılım Ekibi:** Oktay, Okan, Selene
+- **Tasarım Ekibi:** Selen, Selin
+
+[WP/DC Screenshots](https://drive.google.com/drive/folders/1oLfv0cPwilMFoxl8AYUgNgmxMHvE-btH?usp=sharing)
+
+### Sprint Board Updates
+- **Sprint Board:** Jira kullanılarak güncellenmiştir.
+- **Görevlerin Durumu:** Jira Board
+![Screenshot 2024-07-21 021705](https://github.com/user-attachments/assets/46fa1f51-2fb7-4a33-bc81-2a17dcdc7efe)
+
+
+### Ürün Durumu
+
+
+
+### Sprint Review
+- **Katılımcılar:** Oktay, Okan, Selen, Selene
+- **Özet:** Oyun genel olarak mekanik, bulmaca ve tasarım yönünde son aşamaya gelmiş ve bileştirilmeye başlanmıştır. Testlere 3. sprintte başlanılacaktır. Hikayeye topluca karar verilmiş ve onaylanmıştır entegrasyonuna başlanılacaktır.
+
+
+### Sprint Retrospective
+- Oyun genel olarak tamamlanmış ve birleştirilmeye başlanmıştır.
+- Hikayeye karar verilmiş ve level tasarımları ona göre düzenlenmiştir.
+- Bulmacalar oyuna eklenmiştir.
+- Ana karakter belirlenmiş ve gerekli tasarımlar, animasyonlar yapılmıştır.
+- Testlerin 3. sprintte oyun birleştirildikten sonra yapılmasına karar verilmiştir.
+
