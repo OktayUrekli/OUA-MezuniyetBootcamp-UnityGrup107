@@ -8,18 +8,18 @@ using UnityEditor;
 
 public class ShipSceneController : MonoBehaviour
 {
-    public SceneAsset mainMenuScene; 
-    public SceneAsset gameScene; 
+    public SceneAsset mainMenuScene; // Drag and drop the main menu scene asset here in the editor
+    public SceneAsset gameScene; // Drag and drop the game scene asset here in the editor
 
     public void LoadMainMenu()
     {
-        
+        // Load scene by name using SceneAsset
         SceneManager.LoadScene(mainMenuScene.name);
     }
 
     public void RetryGame()
     {
-        
+        // Load scene by name using SceneAsset
         SceneManager.LoadScene(gameScene.name);
     }
 }
