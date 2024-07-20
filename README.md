@@ -113,7 +113,7 @@ ________________________________________
 # Sprint 2
 ### Sprint Düzeni
 - **Sprint İçi Tamamlanacak Puan:** 35 puan
-- **Tahmin Mantığı:** Proje boyunca tamamlanması gereken backlog puanı 100 olarak belirlenmiştir. İlk sprint önemli görevlerin tamamlanmasına, ikinci sprintte oyunun oynanabilir şekilde bişrleştirilip bitirilmesine, son sprintte ise detayşarın düzeltilip teslime hazırlanılmasına karar verilmiştir. İlk iki sprintin toplam puanı projenin 3te 1inden fazladır.
+- **Tahmin Mantığı:** Proje boyunca tamamlanması gereken backlog puanı 100 olarak belirlenmiştir. İlk sprint önemli görevlerin tamamlanmasına, ikinci sprintte oyunun oynanabilir şekilde birleştirilip bitirilmesine, son sprintte ise detayların düzeltilip teslime hazırlanılmasına karar verilmiştir. İlk iki sprintin toplam puanı projenin 3'te 2'sinden fazladır.
   - Mekan tasarımlarının tamamlanması: 10 puan
   - Oyun mekaniklerinin finalize edilmesi: 10 puan
   - Bulmacaların belirlenmesi ve entegrasyonu: 5 puan
@@ -133,7 +133,7 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 - **Yazılım Ekibi:** Oktay, Okan, Selene
 - **Tasarım Ekibi:** Selen, Selin
 
-[WP/DC Screenshots](https://drive.google.com/drive/folders/1oLfv0cPwilMFoxl8AYUgNgmxMHvE-btH?usp=sharing)
+[WP/DC Screenshots](https://drive.google.com/drive/folders/18awC5OfyArnJ5YryYDIEqOTCXEgGfqRC?usp=sharing) 
 
 ### Sprint Board Updates
 - **Sprint Board:** Jira kullanılarak güncellenmiştir.
