@@ -4,24 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
-    guid: fca473bce23663640a13249cd1c3f6e4
-  - enabled: 1
-    path: Assets/Scenes/Forest.unity
-    guid: c1d085a50713f1c419062e0aade950ed
-  - enabled: 1
-    path: Assets/Scenes/village.unity
-    guid: 529e550516aaa3d4b84784fdfb21e0d8
-  - enabled: 1
-    path: Assets/Scenes/DungeonCanvas.unity
-    guid: 23732145fd3efa34288782f255ac4cc7
-  - enabled: 1
-    path: Assets/Scenes/CaveScene.unity
-    guid: 3f620c1fb18a3054ba807824ddbd37c5
-  - enabled: 1
-    path: Assets/Scenes/Enemy.unity
-    guid: c0633b1a1fdfa0b45a3cf0d4e4d5e286
+  m_Scenes: []
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

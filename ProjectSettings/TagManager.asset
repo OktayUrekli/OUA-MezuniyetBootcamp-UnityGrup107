@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Bullet
-  - NPC2
-  - Ground
-  - Enemy
-  - NPC1
-  - Key
-  - Lava
-  - Interactable
+  tags: []
   layers:
   - Default
   - TransparentFX

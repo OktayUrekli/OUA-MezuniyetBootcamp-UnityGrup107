@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b3d9062e5e13a1c43816896ee48795d1
+timeCreated: 1515538873
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100809
+  packageName: 'FlatPoly: Floating Islands'
+  packageVersion: 1.0
+  assetPath: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Other/fence_A_02.prefab
+  uploadId: 223355
