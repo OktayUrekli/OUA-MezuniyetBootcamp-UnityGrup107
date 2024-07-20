@@ -146,7 +146,7 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 
 ### Sprint Review
 - **Katılımcılar:** Oktay, Okan, Selen, Selene
-- **Özet:** Oyun genel olarak mekanik, bulmaca ve tasarım yönünde son aşamada ve bileştirilmeye başlanmasına karar verildi. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun genel görünümüne yönelik ek kararlar alındı. Testlere 3. sprintte başlanılması kararlaştırıldı. Hikayeye topluca karar verildş ve onaylandır entegrasyonuna 3. sprintte başlanmasına karar verildi.
+- **Özet:** Oyun genel olarak mekanik, bulmaca ve tasarım yönünde son aşamada ve bileştirilmeye başlanmasına karar verildi. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun genel görünümüne yönelik ek kararlar alındı. Testlere 3. sprintte başlanılması kararlaştırıldı. Hikayeye topluca gözden geçirildi ve onaylandı, entegrasyonuna 3. sprintte başlanmasına karar verildi.
 
 
 ### Sprint Retrospective
