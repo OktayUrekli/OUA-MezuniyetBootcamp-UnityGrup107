@@ -193,5 +193,5 @@ https://github.com/user-attachments/assets/4a64311c-c6fd-4415-a928-61389afd01cc
 - Testlerin 3. sprintte oyun birleştirildikten sonra yapılmasına karar verilmiştir.
 
 ## Notlar
-- **Geliştirilmesi Gerekenler:** Çok fazla branch olduğu için ve proje açılırken belli şeyler gözden kaçırıldığı 2. sprintin sonunda merge yapılırken sorunlar çıktı.
-- **Aksiyon Planı:** Merge sırasında sıkıntı çıkmaması için projeye gerekli düzenlemelerin yapılıp her main branch kısmına temiz bir şekilde yükleme yapılmasına ve diğer branchlerin yemizlenip ardından sıkıntı çımaması için main branchten öekilerek yeni branchler açılmasına karar verildi.
+- **Geliştirilmesi Gerekenler:** Çok fazla branch olduğu için ve proje açılırken belli şeyler gözden kaçırıldığından dolayı main branche merge yapılırken sorunlar çıkmakta.
+- **Aksiyon Planı:** Merge sırasında sıkıntı çıkmaması için projeye gerekli düzenlemelerin yapılıp main branch kısmına temiz bir şekilde yükleme yapılmasına ve diğer branchlerin temizlenip gerekirse sıkıntı çıkmaması için yeni branchlerin main branchten çekilerek temiz bir şekilde yeniden açılmasına karar verildi.
