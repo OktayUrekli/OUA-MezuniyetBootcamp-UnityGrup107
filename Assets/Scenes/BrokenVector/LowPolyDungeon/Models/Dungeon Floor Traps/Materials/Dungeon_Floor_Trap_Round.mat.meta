@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3194748732832a849867577b18c72222
+timeCreated: 1486576073
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77765
+  packageName: Dungeon Floor Traps
+  packageVersion: 1.1
+  assetPath: Assets/Dungeon Floor Traps/Materials/Dungeon_Floor_Trap_Round.mat
+  uploadId: 161359

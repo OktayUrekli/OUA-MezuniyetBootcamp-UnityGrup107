@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3f53efc1247d5144b4437b91e1b37ab
+timeCreated: 1486723514
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 77765
+  packageName: Dungeon Floor Traps
+  packageVersion: 1.1
+  assetPath: Assets/Dungeon Floor Traps/Prefabs/Mobile/Dungeon_Floor_Trap_Star.prefab
+  uploadId: 161359

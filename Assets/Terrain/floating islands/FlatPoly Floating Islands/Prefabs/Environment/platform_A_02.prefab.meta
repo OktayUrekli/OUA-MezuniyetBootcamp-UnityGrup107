@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d94ccb0bfdfc14041a0f5f4fa9a697a2
+timeCreated: 1515538608
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100809
+  packageName: 'FlatPoly: Floating Islands'
+  packageVersion: 1.0
+  assetPath: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_02.prefab
+  uploadId: 223355

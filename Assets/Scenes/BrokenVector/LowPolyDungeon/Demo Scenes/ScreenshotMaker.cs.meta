@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 84271128a230d244194f1f382c0ec0c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143535
+  packageName: Ultimate Low Poly Dungeon
+  packageVersion: 2.0
+  assetPath: Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs
+  uploadId: 481753

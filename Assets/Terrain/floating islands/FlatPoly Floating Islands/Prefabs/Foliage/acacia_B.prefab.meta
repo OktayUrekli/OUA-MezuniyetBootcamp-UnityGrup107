@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 51f739c1128a66649a9f21334e2d5f14
+timeCreated: 1515324063
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100809
+  packageName: 'FlatPoly: Floating Islands'
+  packageVersion: 1.0
+  assetPath: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Foliage/acacia_B.prefab
+  uploadId: 223355
