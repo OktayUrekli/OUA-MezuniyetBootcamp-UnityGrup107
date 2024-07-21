@@ -141,12 +141,48 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 
 
 ### Ürün Durumu
+![4](https://github.com/user-attachments/assets/0ab10632-e3ed-42e7-85e0-3ecfd4845993)
+![5](https://github.com/user-attachments/assets/f00d8851-831b-4a96-8090-26d214b40d50)
+![6](https://github.com/user-attachments/assets/a1108953-6ecf-43de-8a89-c6c6ba640c4b)
+![10](https://github.com/user-attachments/assets/48ffd58b-99f8-475d-9bf1-b13dc4e0232c)
+![3](https://github.com/user-attachments/assets/af60fdf8-d60a-4d82-9eaf-27a220872de7)
+![2](https://github.com/user-attachments/assets/e35480cc-8970-4f6d-a33b-d03e88b388ea)
+![1](https://github.com/user-attachments/assets/a346f1b1-8d49-40ad-80f6-ac35ece9c12e)
+![11](https://github.com/user-attachments/assets/faf55f9f-8eb5-4f32-a0d3-5e3730ba6e8e)
+![7](https://github.com/user-attachments/assets/1aa928ba-a209-4f4b-b6ea-35d9a8661fb9)
+![8](https://github.com/user-attachments/assets/7da43d6f-130b-40d0-a01e-37e5d4a41519)
+![9](https://github.com/user-attachments/assets/d4339f12-0ff4-4426-9edc-bfc5c70bce88)
+<img width="785" alt="cauldron" src="https://github.com/user-attachments/assets/96213bc1-50af-470e-9796-5b7414fecd44">
+![Ekran_goruntusu_2024-07-21_115449](https://github.com/user-attachments/assets/7143cd73-8802-4fd3-8431-c7cba21ea0c8)
+<img width="678" alt="obstacles" src="https://github.com/user-attachments/assets/70e604d9-652c-4fa6-a9e0-6fba72b959d0">
+![image](https://github.com/user-attachments/assets/bde95331-daab-4050-8b9f-c26d09acfd26)
+![21](https://github.com/user-attachments/assets/41d869fc-4a35-4389-927e-d3e0d580e2e6)
+![Screenshot 2024-07-21 131618](https://github.com/user-attachments/assets/4f9b3f80-1e31-43bb-8932-cf96e4586b52)
+![Screenshot 2024-07-21 131700](https://github.com/user-attachments/assets/1c868146-d298-4cd1-8fc2-360722a5f5bc)
+![Screenshot 2024-07-21 131710](https://github.com/user-attachments/assets/bcb87601-b3f1-4955-8b1b-4751f0e885f5)
+![Screenshot 2024-07-21 131751](https://github.com/user-attachments/assets/b51ec3db-9e93-4b50-8f9f-869dbb986039)
+![Screenshot 2024-07-21 131813](https://github.com/user-attachments/assets/8b2b1288-e78b-49b9-89b0-c6282d61d183)
+
+
+https://github.com/user-attachments/assets/8e31e468-e928-4b0d-a73b-68f6b29d4786
+
+
+
+https://github.com/user-attachments/assets/1d8720e3-8898-45ec-9d5c-082d78d69920
+
+
+
+https://github.com/user-attachments/assets/a6dd11f5-ce0e-427b-be13-09629f062d4e
+
+
+
+https://github.com/user-attachments/assets/4a64311c-c6fd-4415-a928-61389afd01cc
 
 
 
 ### Sprint Review
 - **Katılımcılar:** Oktay, Okan, Selen, Selene
-- **Özet:** Oyun genel olarak mekanik, bulmaca ve tasarım yönünde son aşamada ve bileştirilmeye başlanmasına karar verildi. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun genel görünümüne yönelik ek kararlar alındı. Testlere 3. sprintte başlanılması kararlaştırıldı. Hikayeye topluca gözden geçirildi ve onaylandı, entegrasyonuna 3. sprintte başlanmasına karar verildi.
+- **Özet:** Oyun genel olarak mekanik, bulmaca ve tasarım yönünde son aşamada ve bileştirilmeye başlanmasına karar verildi. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun genel görünümüne yönelik ek kararlar alındı. Ana karaktere karar verildi. Testlere 3. sprintte başlanılması kararlaştırıldı. Hikayeye topluca gözden geçirildi ve onaylandı, entegrasyonuna 3. sprintte başlanmasına karar verildi.
 
 
 ### Sprint Retrospective
@@ -155,4 +191,3 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 - Bulmacalar oyuna eklenmiştir.
 - Ana karakter belirlenmiş ve gerekli tasarımlar, animasyonlar yapılmıştır.
 - Testlerin 3. sprintte oyun birleştirildikten sonra yapılmasına karar verilmiştir.
-
