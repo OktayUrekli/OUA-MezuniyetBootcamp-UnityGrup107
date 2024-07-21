@@ -36,7 +36,7 @@ public class ShipController : MonoBehaviour
         }
         else
         {
-            // Optionally, you can reset the velocity to zero when shooting is disabled
+            //reset the velocity to zero when shooting is disabled
             rb.velocity = Vector3.zero;
         }
     }

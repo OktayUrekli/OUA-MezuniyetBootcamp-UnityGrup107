@@ -6,20 +6,14 @@ public class AsteroidSpawner : MonoBehaviour
 {
     public GameObject asteroidPrefab;
     public int maxAsteroids = 5;
-    public float spawnDistance = 50f;
+    public float spawnRadius = 50f; // Radius around the spawner where asteroids will spawn
     public float checkInterval = 1f;
     public int maxAsteroidsCap = 5;
 
-    private Transform playerTransform;
-    private Camera mainCamera;
     private List<GameObject> asteroids = new List<GameObject>();
 
     void Start()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-
-        mainCamera = Camera.main;
-
         StartCoroutine(SpawnAsteroids());
     }
 
@@ -46,19 +40,17 @@ public class AsteroidSpawner : MonoBehaviour
 
     void SpawnAsteroid()
     {
-        Vector3 spawnPosition = GetRandomPositionInView();
-
+        Vector3 spawnPosition = GetRandomPositionNearSpawner();
         GameObject newAsteroid = Instantiate(asteroidPrefab, spawnPosition, Quaternion.identity);
         asteroids.Add(newAsteroid);
     }
 
-    //To get them spawn in camera view
-    Vector3 GetRandomPositionInView()
+    // Get a random position near the spawner object within the spawn radius
+    Vector3 GetRandomPositionNearSpawner()
     {
-        Vector3 viewportPosition = new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), spawnDistance);
-
-        Vector3 worldPosition = mainCamera.ViewportToWorldPoint(viewportPosition);
-
-        return worldPosition;
+        Vector3 randomDirection = Random.insideUnitSphere * spawnRadius;
+        randomDirection.z = 0; // Ensure the z-coordinate is zero for 2D games
+        Vector3 spawnPosition = transform.position + randomDirection;
+        return spawnPosition;
     }
 }
