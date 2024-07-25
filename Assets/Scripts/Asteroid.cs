@@ -2,20 +2,26 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
-    public float speed = 5f;
-    private Transform playerTransform;
+    public float speed = 5f; // Speed of the asteroid movement
+    public float lifetime = 10f; // Time in seconds before the asteroid is destroyed
+
+    private float spawnTime;
 
     void Start()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        // Record the time when the asteroid is spawned
+        spawnTime = Time.time;
     }
 
     void Update()
     {
-        if (playerTransform != null)
+        // Move the asteroid in the negative z-direction
+        transform.Translate(Vector3.back * speed * Time.deltaTime);
+
+        // Check if the asteroid has exceeded its lifetime
+        if (Time.time - spawnTime > lifetime)
         {
-            Vector3 direction = (playerTransform.position - transform.position).normalized;
-            transform.position += direction * speed * Time.deltaTime;
+            Destroy(gameObject); // Destroy the asteroid
         }
     }
 
@@ -29,7 +35,7 @@ public class Asteroid : MonoBehaviour
                 shipHealth.TakeDamage(10);
             }
 
-            Destroy(gameObject);
+            Destroy(gameObject); // Destroy the asteroid
         }
         else if (collision.gameObject.CompareTag("Bullet"))
         {
