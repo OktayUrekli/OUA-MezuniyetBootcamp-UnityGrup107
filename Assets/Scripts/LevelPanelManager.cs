@@ -1,13 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelPanelManager : MonoBehaviour
 {
-    [SerializeField] Image[] levels;
+    [SerializeField] GameObject[] levels;
     [SerializeField] Button leftBtn, RightBtn;
 
 
@@ -18,9 +15,9 @@ public class LevelPanelManager : MonoBehaviour
     {
         for (int i = 0; i < levels.Length; i++)
         {
-            levels[i].enabled = false;
+            levels[i].SetActive(false);
         }
-        levels[0].enabled = true;
+        levels[0].SetActive(true);
         leftBtn.enabled = false;
     }
 
@@ -64,10 +61,10 @@ public class LevelPanelManager : MonoBehaviour
     {
         for (int i = 0; i < levels.Length; i++)
         {
-            levels[i].enabled = false;
+            levels[i].SetActive(false);
         }
-        levels[index].enabled = true;
-        
+        levels[index].SetActive(true);
+
     }
 
     public void LoadLevelButton()

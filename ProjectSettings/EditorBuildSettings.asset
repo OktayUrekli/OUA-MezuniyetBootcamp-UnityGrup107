@@ -4,6 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: fca473bce23663640a13249cd1c3f6e4
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 3e061304c1e174847ae6012f090e3afa
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 7feb92648b22497418b3128a086d1d0c
+  - enabled: 1
+    path: Assets/Scenes/Rocks.unity
+    guid: 3f620c1fb18a3054ba807824ddbd37c5
+  - enabled: 1
+    path: Assets/Scenes/spaceSequence.unity
+    guid: 0efbaadcc407c90409c5d066de36b0e9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

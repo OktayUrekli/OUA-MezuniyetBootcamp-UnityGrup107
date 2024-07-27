@@ -4,18 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - NPC1
+  - Asteroid
+  - Bullet
+  - NPC2
   - Ground
   - Enemy
-  - Bullet
-  - Asteroid
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - Walls
+  - 
   - 
   - 
   - 

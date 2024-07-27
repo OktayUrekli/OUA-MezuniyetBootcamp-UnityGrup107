@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseCanvasManager : MonoBehaviour
 {
     [SerializeField] GameObject pausePanel,bgPanel;
+    [SerializeField] AudioClip buttonClickClip;
+    [SerializeField] AudioSource SFXSource;
+
 
     private void Update()
     {
@@ -52,5 +53,10 @@ public class PauseCanvasManager : MonoBehaviour
     public void QuitGameButton()
     {
         Application.Quit();
+    }
+
+    public void ButtonClickSound()
+    {
+        SFXSource.PlayOneShot(buttonClickClip);
     }
 }

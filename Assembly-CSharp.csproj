@@ -1,26 +1,21 @@
-﻿<Project ToolsVersion="Current">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
-  </PropertyGroup>
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Include="Unity" />
-  </ItemGroup>
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <EnableDefaultItems>false</EnableDefaultItems>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <LangVersion>9.0</LangVersion>
-    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+    <ProjectGuid>{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -44,77 +39,78 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoStandardLibraries>true</NoStandardLibraries>
-    <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
-    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2023.2.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\okan_\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BulletCollisionHandler.cs" />
-    <Compile Include="Assets\Scripts\ShipCamera.cs" />
+    <Compile Include="Assets\Scripts\From Okan\AsteroidSpawner.cs" />
+    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedCameraController.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs" />
-    <Compile Include="Assets\Scripts\SwordAttack.cs" />
-    <Compile Include="Assets\Scripts\ShipSceneController.cs" />
-    <Compile Include="Assets\Scripts\planetScaler.cs" />
-    <Compile Include="Assets\Scripts\MaleNPC1Behaviour.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy1Behaviour.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHealthControl.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonCont.cs" />
     <Compile Include="Assets\Scripts\LevelPanelManager.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\LavaReset.cs" />
-    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\VolumeSettings.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\GameManager.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\PlaceItem.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\TriggerDoorController.cs" />
+    <Compile Include="Assets\Scripts\From Okan\ShipCamera.cs" />
+    <Compile Include="Assets\Scripts\TabelaManager.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\LavaReset.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\CollectableItem.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\TriggerDoorController.cs" />
     <Compile Include="Assets\Scripts\PauseCanvasManager.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\PlayerMovement.cs" />
-    <Compile Include="Assets\Terrain\floating islands\OrbitZoomPanCamera\Scripts\OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets\Scripts\From Okan\ShipSceneController.cs" />
     <Compile Include="Assets\Scripts\ShipController.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\Cauldron.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\ShotBehavior.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
+    <Compile Include="Assets\Scripts\From Okan\BulletCollisionHandler.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\Cauldron.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\PlayerMovement.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\NearCauldron.cs" />
+    <Compile Include="Assets\Scripts\BarrelTeleportManager.cs" />
     <Compile Include="Assets\Scripts\OptionsMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\ShipHealth.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\CollectableItem.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\VolumetricMultiLineBehavior.cs" />
-    <Compile Include="Assets\Scripts\Asteroid.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealthControl.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\Scripts\VolumetricLineBehavior.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\Scripts\VolumetricLineVertexData.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
+    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\CameraController.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
+    <Compile Include="Assets\Scripts\From Okan\Asteroid.cs" />
+    <Compile Include="Assets\Scripts\From Okan\CameraCont.cs" />
+    <Compile Include="Assets\importedUnityFeatures\Terrain\floating islands\OrbitZoomPanCamera\Scripts\OrbitZoomPanCamera.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionPanel.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionManager.cs" />
-    <Compile Include="Assets\Scripts\Enemy1Behaviour.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs" />
     <Compile Include="Assets\Scripts\MenuCanvasManager.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
-    <Compile Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\Diamond.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Scripts\Npc\MaleNPC1Behaviour.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\PlaceItem.cs" />
+    <Compile Include="Assets\Scripts\From Okan\ShipHealth.cs" />
+    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\From Okan\planetScaler.cs" />
     <Compile Include="Assets\Scripts\ScreenBoundaryWalls.cs" />
-    <Compile Include="Assets\Scripts\AsteroidSpawner.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\GameTimer.cs" />
-    <Compile Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Demo Scenes\NearCauldron.cs" />
+    <Compile Include="Assets\Scripts\From Okan\GameTimer.cs" />
+    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedThirdPersonController.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\Diamond.cs" />
+    <Compile Include="Assets\Scripts\From Okan\SwordAttack.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\importedUnityFeatures\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Materials\Bugs City Free Pack\Environment\Materials\Skybox Gradient.shader" />
@@ -122,42 +118,40 @@
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\ModelAssets\Free Medieval 3D People Low Poly Pack\readme.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\_LineStripShader.cginc" />
-    <None Include="Assets\village houses\License.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\ModelAssets\village houses 2\License.txt" />
     <None Include="Assets\ModelAssets\free-stone-3d-low-poly-models\readme.txt" />
     <None Include="Assets\Materials\Bugs City Free Pack\Shaders\SH_Water.shader" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STOutline.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\EasyStart Third Person Controller\Prefabs\Source\Models\credits.txt" />
     <None Include="Assets\Materials\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Sprites\Space_Game_GUI_PNG\readme.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\ModelAssets\villagers\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\villagers\readme.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ModelAssets\villagers 2\readme.txt" />
     <None Include="Assets\ModelAssets\villagers\readme.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Scenes\BrokenVector\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\READ ME.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\ModelAssets\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\READ ME.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\ModelAssets\Free Medieval 3D People Low Poly Pack\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Materials\Toon Shader FX\Shaders\Toon.shader" />
     <None Include="Assets\Materials\Skyboxes\Permissions.txt" />
     <None Include="Assets\ModelAssets\free-stone-3d-low-poly-models\License.txt" />
-    <None Include="Assets\village houses\readme.txt" />
+    <None Include="Assets\ModelAssets\village houses 2\readme.txt" />
     <None Include="Assets\Materials\Bugs City Free Pack\Shaders\ToonShader.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAlphaBlended.shader" />
     <None Include="Assets\Materials\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Blend.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAdditive.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STTransparent.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -165,42 +159,36 @@
     <None Include="Assets\SFX\kenney_interface-sounds\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\_SingleLineShader.cginc" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-TextureAdditive.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\ModelAssets\village houses\readme.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STCore.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMPro.cginc" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-TextureAlphaBlended.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STDefault.shader" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\LineStrip-LightSaber.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\ModelAssets\VolumetricLines\BuiltInRenderPipeline\Shaders\SingleLine-LightSaber.shader" />
-    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Materials\Toon Shader FX\Shaders\ToonPass.cginc" />
-    <None Include="Assets\villagers\License.txt" />
+    <None Include="Assets\ModelAssets\villagers 2\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\ModelAssets\EEE - Low Poly Rock Pack 001 1\PLEASE READ!.txt" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STFunctions.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\ModelAssets\village houses\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\importedUnityFeatures\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
     <None Include="Assets\Sprites\1. Free Hologram Interface Wenrexa\1. Free Hologram Interface Wenrexa\Readme.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Sprites\EmojiOne Attribution.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -669,6 +657,14 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1159,6 +1155,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1303,6 +1303,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1353,20 +1357,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj" />
-    <ProjectReference Include="Boxophobic.Utils.Editor.csproj" />
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj" />
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
+      <Project>{FB4735A5-9EA9-662B-8AF8-5F69C341B7AA}</Project>
+      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{CD8B52AD-2D98-2D3A-B403-26D2F086281C}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{E7489AED-8A3B-0CC4-C76D-569FAC50D8F1}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
   </ItemGroup>
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-  <ItemGroup>
-    <ProjectCapability Remove="LaunchProfiles" />
-    <ProjectCapability Remove="SharedProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
-    <ProjectCapability Remove="ProjectReferences" />
-    <ProjectCapability Remove="ReferenceManagerProjects" />
-    <ProjectCapability Remove="COMReferences" />
-    <ProjectCapability Remove="ReferenceManagerCOM" />
-    <ProjectCapability Remove="AssemblyReferences" />
-    <ProjectCapability Remove="ReferenceManagerAssemblies" />
-  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>

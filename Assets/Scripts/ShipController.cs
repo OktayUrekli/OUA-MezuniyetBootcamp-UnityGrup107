@@ -43,21 +43,15 @@ public class ShipController : MonoBehaviour
 
     void Shoot()
     {
-        // Instantiate bullet
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
-        // Set initial velocity for the bullet
+        // Calculate direction towards asteroids
+        Vector3 direction = (bulletSpawn.position - transform.position).normalized;
+
+        // Apply velocity to the bullet
         Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
-        bulletRb.useGravity = false;
-
-        // Ensure the bullet's forward direction is aligned with its movement direction
-        bullet.transform.forward = bulletSpawn.forward;
-        bulletRb.velocity = bulletSpawn.forward * bulletSpeed;
-
-        Debug.Log("Bullet Velocity: " + bulletRb.velocity);
+        bulletRb.velocity = direction * bulletSpeed;
     }
-
-
 
     // Method to disable shooting (called when game is in win or lose state)
     public void DisableShooting()

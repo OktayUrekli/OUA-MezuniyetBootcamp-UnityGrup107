@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
@@ -9,11 +10,22 @@ public class OptionsMenu : MonoBehaviour
 
     [SerializeField] AudioMixer audioMixer;
 
+    [SerializeField] Slider volumeSlider;
+
     Resolution[] resolutions;
 
     private void Start()
     {
         StartingResulations();
+
+        if (PlayerPrefs.HasKey("musicVolume") )
+        {
+            LoadVolume();
+        }
+        else
+        {
+            SetVolume();
+        }
     }
 
     void StartingResulations()
@@ -56,11 +68,17 @@ public class OptionsMenu : MonoBehaviour
         Screen.fullScreen = isFull;
     }
 
-    public void SetVolume(float volume)
+    public void SetVolume()
     {
-        audioMixer.SetFloat("Volume", volume);
+        audioMixer.SetFloat("Volume", volumeSlider.value);
+        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
     }
 
+    void LoadVolume()
+    {
+        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        audioMixer.SetFloat("Volume", volumeSlider.value);
+    }
  
 
   
