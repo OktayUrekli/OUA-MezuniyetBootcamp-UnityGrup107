@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 587c4598ee14de544b2ca72f8cac3c54
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 8466
+  packageName: Sand Clock
+  packageVersion: 1.5
+  assetPath: Assets/SandClock/Animations/sand_clock_animator.controller
+  uploadId: 411964

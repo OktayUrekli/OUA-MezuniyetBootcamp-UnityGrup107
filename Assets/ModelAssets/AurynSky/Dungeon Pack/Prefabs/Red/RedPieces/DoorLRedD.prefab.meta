@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7d5af51378758d345a13010e6df7aa69
+timeCreated: 1516577719
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Red/RedPieces/DoorLRedD.prefab
+  uploadId: 326345

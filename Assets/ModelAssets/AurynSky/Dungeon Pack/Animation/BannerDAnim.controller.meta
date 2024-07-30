@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0ee59b61aee211c4faae96c41b55488c
+timeCreated: 1516580560
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Animation/BannerDAnim.controller
+  uploadId: 326345

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e3cae06149d8d243a3be4bdd1867d86
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 167590
+  packageName: Rust Key
+  packageVersion: 1.0
+  assetPath: Assets/Rust Key/Prefabs/rust_key.prefab
+  uploadId: 364870

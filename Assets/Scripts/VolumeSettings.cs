@@ -1,17 +1,12 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-
 public class VolumeSettings : MonoBehaviour
 {
-
     [SerializeField] AudioMixer myAudioMixer;
     [SerializeField] Slider musicSlider;
-    // [SerializeField] Image nonVolumeImage, volumeImage;
-
     private void Start()
     {
-
         if (PlayerPrefs.HasKey("MusicVolume"))
         {
             LoadMusicVolume();
@@ -21,23 +16,18 @@ public class VolumeSettings : MonoBehaviour
             SetMusicVolume();
         }
     }
-
     public void SetMusicVolume()
     {
         float volume = musicSlider.value;
         GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioSource>().volume = volume;
-         // UpdateVolumeImage();
         myAudioMixer.SetFloat("Music", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("MusicVolume", volume);
     }
-
     void LoadMusicVolume()
     {
         musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         SetMusicVolume();
     }
-
-
     /*
     void UpdateVolumeImage()
     {

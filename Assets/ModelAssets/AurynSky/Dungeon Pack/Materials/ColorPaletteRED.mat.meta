@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bef590b5f83718440bddad527c144253
+timeCreated: 1516427775
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Materials/ColorPaletteRED.mat
+  uploadId: 326345

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfe3bdb1f74f2b24cbd1867c8829b21c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207743
+  packageName: Pirate Coin
+  packageVersion: 1.0
+  assetPath: Assets/DavePixel/PirateCoin/Materials/DarkGold.mat
+  uploadId: 467011

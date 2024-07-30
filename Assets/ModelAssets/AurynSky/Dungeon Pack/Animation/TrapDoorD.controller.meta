@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 533bcb928ef66fa42b77c15da2ea6fbd
+timeCreated: 1516570575
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Animation/TrapDoorD.controller
+  uploadId: 326345

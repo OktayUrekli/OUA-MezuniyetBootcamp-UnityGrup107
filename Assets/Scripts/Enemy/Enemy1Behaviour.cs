@@ -1,44 +1,35 @@
 using UnityEngine;
 using UnityEngine.AI;
-
 public class Enemy1Behaviour : MonoBehaviour
 {
     Animator enemyAnimator;
     NavMeshAgent agent;
-
     [SerializeField] float range;
     public bool inFollowRange;
     public bool inAttackRange;
     [SerializeField]  Vector3 newDestination;
     public bool atNewDestination;
     [SerializeField] LayerMask groundLayer;
-
     float time;
-   
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         enemyAnimator = GetComponent<Animator>();
-        SetIdleDuration();   
+        SetIdleDuration();
     }
-
-    
     void Update()
     {
         if (!atNewDestination)
         {
            PositionControl();
         }
-
     }
-
     void SetIdleDuration()
     {
         int idleDuration=Random.Range(2,5);
         enemyAnimator.SetFloat("Speed", 0);
         Invoke("SetRandomDestination", idleDuration);
     }
-
     void SetRandomDestination()
     {
         atNewDestination = false;
@@ -49,17 +40,12 @@ public class Enemy1Behaviour : MonoBehaviour
         agent.SetDestination(newDestination);
         time = 0;
         Timer();
-
     }
-
     void Timer()
-    {   
+    {
         time += 1;
         Invoke("Timer", 1);
     }
-
-    
-
     void PositionControl()
     {
         if (Vector3.Distance(transform.position,newDestination)<1 || (time >= 20 && !inFollowRange))
@@ -70,9 +56,8 @@ public class Enemy1Behaviour : MonoBehaviour
         else
         {
             atNewDestination = false;
-        }   
+        }
     }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -80,16 +65,12 @@ public class Enemy1Behaviour : MonoBehaviour
             inAttackRange = true;
             enemyAnimator.SetFloat("Speed", 0);
             Invoke("Attack", 2f);
-
         }
     }
-
     void Attack()
     {
-        Debug.Log("saldýrdý");
         enemyAnimator.SetBool("Attack", inAttackRange);
     }
-
     private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -101,8 +82,6 @@ public class Enemy1Behaviour : MonoBehaviour
             agent.SetDestination(newDestination) ;
         }
     }
-
-
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -110,21 +89,18 @@ public class Enemy1Behaviour : MonoBehaviour
             inFollowRange = true;
             newDestination = other.transform.position;
             agent.SetDestination(newDestination);
-            
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            inFollowRange = false; 
+            inFollowRange = false;
             newDestination=transform.position;
             enemyAnimator.SetFloat("Speed", 0);
             SetIdleDuration();
         }
     }
-
      /*
     private void OnDrawGizmos()
     {

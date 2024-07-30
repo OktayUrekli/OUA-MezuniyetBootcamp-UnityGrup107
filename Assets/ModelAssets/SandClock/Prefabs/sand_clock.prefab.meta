@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 030dbc91e8f48ef40bf620d9aeebc47e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 8466
+  packageName: Sand Clock
+  packageVersion: 1.5
+  assetPath: Assets/SandClock/Prefabs/sand_clock.prefab
+  uploadId: 411964

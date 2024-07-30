@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 429669ea6f874eb43bbf97470c68fb12
+timeCreated: 1516595950
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Red/BannerStandingRed.prefab
+  uploadId: 326345

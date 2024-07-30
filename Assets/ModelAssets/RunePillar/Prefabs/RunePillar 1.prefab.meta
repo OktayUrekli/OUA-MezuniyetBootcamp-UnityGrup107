@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d29e24bc93cb56444b399ec69af86d12
+timeCreated: 1487808479
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82041
+  packageName: Mystic Runestone
+  packageVersion: 1.0
+  assetPath: Assets/RunePillar/Prefabs/RunePillar 1.prefab
+  uploadId: 163798

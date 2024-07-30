@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a18162285d90d504392dd8ce42dd07c1
+timeCreated: 1516596628
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Blue/BluePieces/DoorLBlue.prefab
+  uploadId: 326345

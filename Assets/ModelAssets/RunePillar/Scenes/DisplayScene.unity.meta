@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 259381a0482194b4a944b5aec0e87e96
+timeCreated: 1485902986
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82041
+  packageName: Mystic Runestone
+  packageVersion: 1.0
+  assetPath: Assets/RunePillar/Scenes/DisplayScene.unity
+  uploadId: 163798

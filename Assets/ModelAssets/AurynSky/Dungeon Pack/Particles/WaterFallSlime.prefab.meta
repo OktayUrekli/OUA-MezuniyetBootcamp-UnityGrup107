@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a81d55466162f4e468ace94352031b21
+timeCreated: 1505107009
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Particles/WaterFallSlime.prefab
+  uploadId: 326345

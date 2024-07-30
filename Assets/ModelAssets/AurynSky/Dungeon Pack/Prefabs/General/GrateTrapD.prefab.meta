@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e93ca683b6c4378479c82039c346df54
+timeCreated: 1516568258
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/General/GrateTrapD.prefab
+  uploadId: 326345

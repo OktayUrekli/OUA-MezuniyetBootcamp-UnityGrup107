@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5c8d51cd86203bd4ab21cf3caae31147
+timeCreated: 1516565722
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/General/Pole01D.prefab
+  uploadId: 326345

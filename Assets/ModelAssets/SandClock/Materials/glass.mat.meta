@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba34b4eba0015a14b8fac6706d579b12
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 8466
+  packageName: Sand Clock
+  packageVersion: 1.5
+  assetPath: Assets/SandClock/Materials/glass.mat
+  uploadId: 411964

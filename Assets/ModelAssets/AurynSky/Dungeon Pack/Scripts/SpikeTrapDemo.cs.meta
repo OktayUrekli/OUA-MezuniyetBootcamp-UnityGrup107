@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bbfc9ddd4ef5c6f47afe9453d93658aa
+timeCreated: 1516568424
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs
+  uploadId: 326345

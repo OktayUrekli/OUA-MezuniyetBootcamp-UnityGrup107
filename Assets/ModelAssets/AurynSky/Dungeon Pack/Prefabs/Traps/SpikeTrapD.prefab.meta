@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b58fdf950bf832348af4bfaa2fd9f743
+timeCreated: 1516568971
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/SpikeTrapD.prefab
+  uploadId: 326345

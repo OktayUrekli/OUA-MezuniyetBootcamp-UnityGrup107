@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1570885164827a44096abb0ff9a99306
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 167590
+  packageName: Rust Key
+  packageVersion: 1.0
+  assetPath: Assets/Rust Key/Materials/rust_key_standard.mat
+  uploadId: 364870

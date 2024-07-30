@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a5dcf289ffc9ef146a3e0fe6e522ffcd
+timeCreated: 1516570550
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/TrapDoorLD.prefab
+  uploadId: 326345

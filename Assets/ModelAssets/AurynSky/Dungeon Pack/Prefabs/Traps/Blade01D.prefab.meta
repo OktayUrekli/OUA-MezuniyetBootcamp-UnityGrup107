@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 56ba4d3d8b4cefa43b3711410ea1ecd0
+timeCreated: 1516565760
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 109791
+  packageName: Dungeon - Low Poly Toon Battle Arena / Tower Defense Pack
+  packageVersion: 1.1
+  assetPath: Assets/AurynSky/Dungeon Pack/Prefabs/Traps/Blade01D.prefab
+  uploadId: 326345

@@ -11,6 +11,9 @@ TagManager:
   - Ground
   - Enemy
   - Obstacle
+  - MysticItem
+  - Key
+  - Key2
   layers:
   - Default
   - TransparentFX
