@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager2 : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager2 instance;
     public Cauldron cauldron;
 
     private Queue<int> collectedItems = new Queue<int>();

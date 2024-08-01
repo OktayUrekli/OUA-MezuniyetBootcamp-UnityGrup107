@@ -8,9 +8,9 @@ public class CollectibleItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (GameManager.instance.CanCollectItem(order))
+            if (GameManager2.instance.CanCollectItem(order))
             {
-                GameManager.instance.CollectItem(this);
+                GameManager2.instance.CollectItem(this);
                 gameObject.SetActive(false);
             }
             else

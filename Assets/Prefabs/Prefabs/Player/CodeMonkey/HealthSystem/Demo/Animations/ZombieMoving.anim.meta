@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e071eecf36f30ef479b2f56acb510aca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Animations/ZombieMoving.anim
+  uploadId: 487200

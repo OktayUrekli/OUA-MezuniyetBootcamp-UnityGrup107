@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a169bc658ffbe1458ef819934137bf2
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/CodeMonkey_HealthSystem.asmdef
+  uploadId: 487200

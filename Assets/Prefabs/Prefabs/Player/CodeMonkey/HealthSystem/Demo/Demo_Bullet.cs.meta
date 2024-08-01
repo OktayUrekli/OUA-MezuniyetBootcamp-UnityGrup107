@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 78964aea51a31da43b179a267e314232
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Demo_Bullet.cs
+  uploadId: 487200

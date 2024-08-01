@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 99ccde617cdd6e74abfb4efbc22084ad
+timeCreated: 1523793784
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Scenes/Demo_DefenseGame.unity
+  uploadId: 487200

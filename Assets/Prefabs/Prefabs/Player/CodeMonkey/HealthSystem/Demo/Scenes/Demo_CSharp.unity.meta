@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e8863d8e881d9874b9e9e150269f3ff8
+timeCreated: 1523793784
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Scenes/Demo_CSharp.unity
+  uploadId: 487200

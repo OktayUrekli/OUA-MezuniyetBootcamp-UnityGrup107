@@ -1,10 +1,10 @@
 using UnityEngine;
-public enum ItemType
+public enum ItemType2
 {
     CauldronItem,
     MysticItem
 }
-public class CollectibleItem : MonoBehaviour
+class CollectibleItem2 : MonoBehaviour
 {
     public ItemType itemType;
     public string itemID;
@@ -14,7 +14,7 @@ public class CollectibleItem : MonoBehaviour
         {
             if (itemType == ItemType.MysticItem)
             {
-                GameManager.instance.mysticStoneInteractionCount++;
+                GameManager3.instance.mysticStoneInteractionCount++;
                 if (!string.IsNullOrEmpty(itemID))
                 {
                     if (GameObject.FindObjectOfType<MysticRunestone>().AddItem(itemID))
@@ -29,4 +29,6 @@ public class CollectibleItem : MonoBehaviour
             }
         }
     }
+
+    
 }

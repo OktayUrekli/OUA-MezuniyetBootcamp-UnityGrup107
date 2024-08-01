@@ -6,7 +6,7 @@ public class NearCauldron : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.SetNearCauldron(true);
+            GameManager2.instance.SetNearCauldron(true);
         }
     }
 
@@ -14,7 +14,7 @@ public class NearCauldron : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.SetNearCauldron(false);
+            GameManager2.instance.SetNearCauldron(false);
         }
     }
 }

@@ -6,7 +6,7 @@ public class PlaceItem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            GameManager.instance.PlaceItemInCauldron();
+            GameManager2.instance.PlaceItemInCauldron();
         }
     }
 }

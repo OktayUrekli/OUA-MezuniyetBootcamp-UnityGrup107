@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1cca6942ac0af734c9659cc3791bd85f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Prefabs/Zombie.prefab
+  uploadId: 487200

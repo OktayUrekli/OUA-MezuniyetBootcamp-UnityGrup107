@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     public float attackRange = 2f;
     public float attackCooldown = 1f;
     private Transform player;
-    private PlayerController playerController;
+    private PlayerController1 playerController;
     private bool isAttacking = false;
     private Animator animator;
     void Start()
@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
         if (playerObject != null)
         {
             player = playerObject.transform;
-            playerController = playerObject.GetComponent<PlayerController>();
+            playerController = playerObject.GetComponent<PlayerController1>();
         }
         animator = GetComponent<Animator>();
     }

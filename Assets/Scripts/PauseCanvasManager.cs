@@ -21,24 +21,24 @@ public class PauseCanvasManager : MonoBehaviour
     {
         pausePanel.SetActive(true);
         bgPanel.SetActive(true);
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
     }
     public void ContinueGameButton()
     {
         pausePanel.SetActive(false);
         bgPanel.SetActive(false);
-        Time.timeScale = 1;
+       // Time.timeScale = 1;
     }
     public void RestartGameButton()
     {
         pausePanel.SetActive(false);
         bgPanel.SetActive(false);
-        Time.timeScale = 1;
+       // Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void ReturnMenuButton()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
     public void QuitGameButton()

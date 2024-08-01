@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2023_2_20;UNITY_2023_2;UNITY_2023;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2023_2_20;UNITY_2023_2;UNITY_2023;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;DOTWEEN;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -63,21 +63,29 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\From Okan\AsteroidSpawner.cs" />
     <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedCameraController.cs" />
+    <Compile Include="Assets\Scripts\KeyCollector.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy1Behaviour.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealthControl.cs" />
+    <Compile Include="Assets\Scripts\EnemyControllerOkan.cs" />
+    <Compile Include="Assets\Scripts\TreasureChest.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCont.cs" />
     <Compile Include="Assets\Scripts\LevelPanelManager.cs" />
-    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\GameManager.cs" />
+    <Compile Include="Assets\Scripts\DiamondInsideChest.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\VolumeSettings.cs" />
     <Compile Include="Assets\Scripts\From Okan\ShipCamera.cs" />
     <Compile Include="Assets\Scripts\TabelaManager.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\LavaReset.cs" />
+    <Compile Include="Assets\Scripts\CollectableItem2.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\CollectableItem.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\TriggerDoorController.cs" />
     <Compile Include="Assets\Scripts\PauseCanvasManager.cs" />
+    <Compile Include="Assets\Scripts\TriggerDoorController2.cs" />
+    <Compile Include="Assets\Scripts\CollectableItem3.cs" />
+    <Compile Include="Assets\ModelAssets\AurynSky\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
+    <Compile Include="Assets\Scripts\LeverTrigger.cs" />
     <Compile Include="Assets\Scripts\From Okan\ShipSceneController.cs" />
     <Compile Include="Assets\Scripts\ShipController.cs" />
     <Compile Include="Assets\Scripts\From Okan\BulletCollisionHandler.cs" />
@@ -86,27 +94,38 @@
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\NearCauldron.cs" />
     <Compile Include="Assets\Scripts\BarrelTeleportManager.cs" />
     <Compile Include="Assets\Scripts\OptionsMenu.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\GameManager2.cs" />
     <Compile Include="Assets\EasyStart Third Person Controller\Scripts\CameraController.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
     <Compile Include="Assets\Scripts\From Okan\Asteroid.cs" />
     <Compile Include="Assets\Scripts\From Okan\CameraCont.cs" />
+    <Compile Include="Assets\Scripts\GameManager3.cs" />
     <Compile Include="Assets\importedUnityFeatures\Terrain\floating islands\OrbitZoomPanCamera\Scripts\OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets\Scripts\HealthCollect.cs" />
+    <Compile Include="Assets\Scripts\PlayerController2.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionPanel.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionManager.cs" />
+    <Compile Include="Assets\Scripts\FossileCollect.cs" />
     <Compile Include="Assets\Scripts\MenuCanvasManager.cs" />
+    <Compile Include="Assets\Scripts\Trap.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\Npc\MaleNPC1Behaviour.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\PlaceItem.cs" />
     <Compile Include="Assets\Scripts\From Okan\ShipHealth.cs" />
     <Compile Include="Assets\EasyStart Third Person Controller\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController1.cs" />
     <Compile Include="Assets\Scripts\From Okan\planetScaler.cs" />
+    <Compile Include="Assets\Scripts\valveWheels_Trigger.cs" />
     <Compile Include="Assets\Scripts\ScreenBoundaryWalls.cs" />
+    <Compile Include="Assets\ModelAssets\AurynSky\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
+    <Compile Include="Assets\Scripts\SciFiButtonTrigger.cs" />
     <Compile Include="Assets\Scripts\From Okan\GameTimer.cs" />
     <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedThirdPersonController.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\Diamond.cs" />
+    <Compile Include="Assets\Scripts\PlayerUI1Okan.cs" />
     <Compile Include="Assets\Scripts\From Okan\SwordAttack.cs" />
+    <Compile Include="Assets\Scripts\MysticRunestone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF SSD.shader" />
@@ -143,6 +162,7 @@
     <None Include="Assets\ModelAssets\Free Medieval 3D People Low Poly Pack\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Materials\Toon Shader FX\Shaders\Toon.shader" />
+    <None Include="Assets\ModelAssets\AurynSky\Dungeon Pack\READ ME.txt" />
     <None Include="Assets\Materials\Skyboxes\Permissions.txt" />
     <None Include="Assets\ModelAssets\free-stone-3d-low-poly-models\License.txt" />
     <None Include="Assets\ModelAssets\village houses 2\readme.txt" />
@@ -154,6 +174,7 @@
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STTransparent.shader" />
+    <None Include="Assets\ModelAssets\DavePixel\ReadMe!.rtf.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\SFX\kenney_interface-sounds\License.txt" />
@@ -170,6 +191,7 @@
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\ModelAssets\Grimoire\ReadMe.txt" />
     <None Include="Assets\Materials\Simple Toon\Shaders\STDefault.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -185,6 +207,7 @@
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\ModelAssets\village houses\License.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\ModelAssets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
     <None Include="Assets\importedUnityFeatures\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
     <None Include="Assets\Sprites\1. Free Hologram Interface Wenrexa\1. Free Hologram Interface Wenrexa\Readme.txt" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Sprite.shader" />
@@ -645,6 +668,10 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -1357,9 +1384,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{54D326B4-BF27-BD14-AA40-80F2F9AEE443}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
       <Project>{FB4735A5-9EA9-662B-8AF8-5F69C341B7AA}</Project>
       <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CodeMonkey_HealthSystem.csproj">
+      <Project>{2405E175-D508-09FD-A70F-316D96BC99F9}</Project>
+      <Name>CodeMonkey_HealthSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{CD8B52AD-2D98-2D3A-B403-26D2F086281C}</Project>
@@ -1368,6 +1403,10 @@
     <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
       <Project>{E7489AED-8A3B-0CC4-C76D-569FAC50D8F1}</Project>
       <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="CodeMonkey_HealthSystem_Editor.csproj">
+      <Project>{401CEEB6-C0A3-3F05-8F6C-EAF6138C2554}</Project>
+      <Name>CodeMonkey_HealthSystem_Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

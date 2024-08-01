@@ -6,7 +6,7 @@ public class Diamond : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.CollectDiamond();
+            GameManager2.instance.CollectDiamond();
             gameObject.SetActive(false);
         }
     }

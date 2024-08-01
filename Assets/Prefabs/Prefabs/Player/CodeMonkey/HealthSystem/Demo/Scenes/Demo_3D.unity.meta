@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5b7819561cd7a394daef15157f9a323d
+timeCreated: 1523793784
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Demo/Scenes/Demo_3D.unity
+  uploadId: 487200

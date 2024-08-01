@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-public class TriggerDoorController : MonoBehaviour
+class TriggerDoorController2 : MonoBehaviour
 {
     [SerializeField] private Animator doorLeft = null;
     [SerializeField] private Animator doorRight = null;

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 266600c7781b6554f8e700bf4b3963e7
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/_Readme/Editor/CodeMonkey_HealthSystem_Editor.asmdef
+  uploadId: 487200

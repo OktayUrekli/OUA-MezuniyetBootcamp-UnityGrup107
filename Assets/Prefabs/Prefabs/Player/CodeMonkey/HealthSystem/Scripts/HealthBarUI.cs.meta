@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d7912dc3ce1cccc4a9e9bf3bdc8f0b0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211787
+  packageName: Health System (Includes Learning Video)
+  packageVersion: 1.0
+  assetPath: Assets/CodeMonkey/HealthSystem/Scripts/HealthBarUI.cs
+  uploadId: 487200

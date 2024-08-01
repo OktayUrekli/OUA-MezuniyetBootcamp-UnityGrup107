@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
-public class GameManager : MonoBehaviour
+public class GameManager3 : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager3 instance;
     public TreasureChest treasureChest;
     private HashSet<string> collectedItemsForMysticStone = new HashSet<string>();
     private bool isNearMysticStone = false;
     public int mysticStoneInteractionCount = 0;
     public Transform mystical;
     private ThirdPersonController playerController;
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -21,6 +21,9 @@ public class GameManager : MonoBehaviour
         }
         playerController = FindObjectOfType<ThirdPersonController>();
     }
+
+    
+
     public void CollectItemForMysticStone(string itemID)
     {
         if (!collectedItemsForMysticStone.Contains(itemID))
