@@ -8,7 +8,8 @@ public class GameManager3 : MonoBehaviour
     private bool isNearMysticStone = false;
     public int mysticStoneInteractionCount = 0;
     public Transform mystical;
-    private ThirdPersonController playerController;
+    private PlayerController2 playerController;
+
     private void Awake()
     {
         if (instance == null)
@@ -19,7 +20,7 @@ public class GameManager3 : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        playerController = FindObjectOfType<ThirdPersonController>();
+        playerController = FindObjectOfType<PlayerController2>();
     }
 
     

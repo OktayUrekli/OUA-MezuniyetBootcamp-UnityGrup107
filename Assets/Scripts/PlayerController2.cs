@@ -128,10 +128,10 @@ public class PlayerController2 : MonoBehaviour
     }
     void UpdateUI()
     {
-        PlayerUI playerUI = FindObjectOfType<PlayerUI>();
+        PlayerUIOkan playerUI = FindObjectOfType<PlayerUIOkan>();
         if (playerUI != null)
         {
-            playerUI.UpdateHealthUI(playerHealth);
+            //playerUI.UpdateHealthUI(playerHealth);
         }
     }
 }

@@ -14342,9 +14342,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1205181570343654658, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 638723903}
+    - target: {fileID: 1205181570343654658, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: YesForTravelButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1205181570343654658, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ForestToTown, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2302553574802571498, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
       propertyPath: m_Name
       value: "F\u0131c\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934448514939873144, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_text
+      value: "KASABAYA SEYAHAT ETMEK \u0130STED\u0130\u011E\u0130N\u0130ZE EM\u0130N
+        M\u0130S\u0130N\u0130Z?"
       objectReference: {fileID: 0}
     - target: {fileID: 7552233508282675057, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14394,16 +14411,55 @@ PrefabInstance:
       propertyPath: travelSceneIndex
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9064464269288055839, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 638723903}
+    - target: {fileID: 9064464269288055839, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NoForTravelButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064464269288055839, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ForestToTown, Assembly-CSharp
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7971852179981969970, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2302553574802571498, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 638723903}
   m_SourcePrefab: {fileID: 100100000, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
 --- !u!4 &638723900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7101200728636336450, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
   m_PrefabInstance: {fileID: 638723899}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &638723901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2302553574802571498, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+  m_PrefabInstance: {fileID: 638723899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &638723902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764543350847918438, guid: 4ac2623d75aa6a244b35cdd082e9efcd, type: 3}
+  m_PrefabInstance: {fileID: 638723899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &638723903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638723901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5586d95ff106f4aa9bd9880b94d9bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textPanel: {fileID: 638723902}
 --- !u!1001 &649559961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14883,7 +14939,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5063127286929131031, guid: be4d5f533e4b50343bb33f92491e4ad7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.78
+      value: -67.88
       objectReference: {fileID: 0}
     - target: {fileID: 5063127286929131031, guid: be4d5f533e4b50343bb33f92491e4ad7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14891,7 +14947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5063127286929131031, guid: be4d5f533e4b50343bb33f92491e4ad7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.05
+      value: -73.84
       objectReference: {fileID: 0}
     - target: {fileID: 5063127286929131031, guid: be4d5f533e4b50343bb33f92491e4ad7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30930,6 +30986,10 @@ PrefabInstance:
     - target: {fileID: 2153286790064582906, guid: aa1fb50ad1bb3d7459bda22ad01de4db, type: 3}
       propertyPath: m_Name
       value: CanvasPlayerUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680457821931539259, guid: aa1fb50ad1bb3d7459bda22ad01de4db, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51927,11 +51987,11 @@ SceneRoots:
   - {fileID: 112874823}
   - {fileID: 1382392797}
   - {fileID: 1551540632}
-  - {fileID: 1389097572}
   - {fileID: 638619181}
   - {fileID: 846293637}
   - {fileID: 1976610274}
   - {fileID: 1587173793}
+  - {fileID: 1389097572}
   - {fileID: 638723899}
   - {fileID: 41026324}
   - {fileID: 1861086240}

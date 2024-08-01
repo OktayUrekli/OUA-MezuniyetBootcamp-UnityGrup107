@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\From Okan\AsteroidSpawner.cs" />
-    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedCameraController.cs" />
     <Compile Include="Assets\Scripts\KeyCollector.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
@@ -83,9 +82,11 @@
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\TriggerDoorController.cs" />
     <Compile Include="Assets\Scripts\PauseCanvasManager.cs" />
     <Compile Include="Assets\Scripts\TriggerDoorController2.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\ForestToTown.cs" />
     <Compile Include="Assets\Scripts\CollectableItem3.cs" />
     <Compile Include="Assets\ModelAssets\AurynSky\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
     <Compile Include="Assets\Scripts\LeverTrigger.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\GameManagerOktay.cs" />
     <Compile Include="Assets\Scripts\From Okan\ShipSceneController.cs" />
     <Compile Include="Assets\Scripts\ShipController.cs" />
     <Compile Include="Assets\Scripts\From Okan\BulletCollisionHandler.cs" />
@@ -94,26 +95,31 @@
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\NearCauldron.cs" />
     <Compile Include="Assets\Scripts\BarrelTeleportManager.cs" />
     <Compile Include="Assets\Scripts\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\TownToRocks.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\GameManager2.cs" />
-    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\CameraController.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
     <Compile Include="Assets\Scripts\From Okan\Asteroid.cs" />
     <Compile Include="Assets\Scripts\From Okan\CameraCont.cs" />
     <Compile Include="Assets\Scripts\GameManager3.cs" />
     <Compile Include="Assets\importedUnityFeatures\Terrain\floating islands\OrbitZoomPanCamera\Scripts\OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\RocksToTown.cs" />
     <Compile Include="Assets\Scripts\HealthCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\DungeonToTown.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\StorySaveManger.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionPanel.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionManager.cs" />
     <Compile Include="Assets\Scripts\FossileCollect.cs" />
     <Compile Include="Assets\Scripts\MenuCanvasManager.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\StoryManager.cs" />
     <Compile Include="Assets\Scripts\Trap.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Models\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\Npc\MaleNPC1Behaviour.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\TownToForest.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\PlaceItem.cs" />
     <Compile Include="Assets\Scripts\From Okan\ShipHealth.cs" />
-    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\StoryManager\TownToDungeon.cs" />
     <Compile Include="Assets\Scripts\PlayerController1.cs" />
     <Compile Include="Assets\Scripts\From Okan\planetScaler.cs" />
     <Compile Include="Assets\Scripts\valveWheels_Trigger.cs" />
@@ -121,7 +127,6 @@
     <Compile Include="Assets\ModelAssets\AurynSky\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
     <Compile Include="Assets\Scripts\SciFiButtonTrigger.cs" />
     <Compile Include="Assets\Scripts\From Okan\GameTimer.cs" />
-    <Compile Include="Assets\EasyStart Third Person Controller\Scripts\Commenteds\CommentedThirdPersonController.cs" />
     <Compile Include="Assets\ModelAssets\LowPolyDungeon\Demo Scenes\Diamond.cs" />
     <Compile Include="Assets\Scripts\PlayerUI1Okan.cs" />
     <Compile Include="Assets\Scripts\From Okan\SwordAttack.cs" />
@@ -144,7 +149,6 @@
     <None Include="Assets\Materials\Simple Toon\Shaders\STOutline.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\EasyStart Third Person Controller\Prefabs\Source\Models\credits.txt" />
     <None Include="Assets\Materials\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\importedUnityFeatures\TextMesh Pro 2\Shaders\TMP_SDF Overlay.shader" />

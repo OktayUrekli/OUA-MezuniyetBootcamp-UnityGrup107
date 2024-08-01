@@ -14,6 +14,11 @@ TagManager:
   - MysticItem
   - Key
   - Key2
+  - Miner
+  - Blacksmith
+  - Villager
+  - Diamond
+  - Fosil
   layers:
   - Default
   - TransparentFX

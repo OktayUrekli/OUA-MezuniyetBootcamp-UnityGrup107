@@ -149,7 +149,6 @@ GameObject:
   - component: {fileID: 8357534518802989684}
   - component: {fileID: 1631874366952651687}
   - component: {fileID: 8199973677779339782}
-  - component: {fileID: 7971852179981969970}
   m_Layer: 0
   m_Name: "F\u0131c\u0131"
   m_TagString: Untagged
@@ -271,21 +270,6 @@ CapsuleCollider:
   m_Height: 2.36
   m_Direction: 1
   m_Center: {x: 0, y: 0.53, z: 0}
---- !u!114 &7971852179981969970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302553574802571498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1230545e13da0f4bad2b9fe64d88b75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lastTravelPoint: {fileID: 0}
-  travelSceneIndex: 0
-  travelText: {fileID: 5764543350847918438}
 --- !u!1 &5330576064012768080
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +799,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7971852179981969970}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BarrelTeleportManager, Assembly-CSharp
         m_MethodName: YesForTravel
         m_Mode: 1
@@ -948,7 +932,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7971852179981969970}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BarrelTeleportManager, Assembly-CSharp
         m_MethodName: NoForTravel
         m_Mode: 1

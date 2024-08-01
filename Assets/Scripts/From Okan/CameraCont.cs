@@ -16,8 +16,8 @@ public class CameraCont : MonoBehaviour
     private float targetHeight;
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
         currentHeight = height;
         targetHeight = height;
     }
