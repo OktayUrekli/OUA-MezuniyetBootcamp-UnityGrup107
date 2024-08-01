@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 5444550}
   - component: {fileID: 11425652}
   - component: {fileID: -2497019498408698131}
+  - component: {fileID: 5600696764581218675}
   m_Layer: 0
   m_Name: Asteroid 1
   m_TagString: Enemy
@@ -260,7 +261,7 @@ Transform:
   m_GameObject: {fileID: 151664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.323, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -321,6 +322,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   lifetime: 10
+--- !u!135 &5600696764581218675
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.0073577
+  m_Center: {x: 0, y: -0.104153514, z: 0}
 --- !u!1 &176588
 GameObject:
   m_ObjectHideFlags: 0

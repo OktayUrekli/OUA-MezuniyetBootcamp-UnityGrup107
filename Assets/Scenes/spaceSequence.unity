@@ -2767,7 +2767,7 @@ Transform:
   m_GameObject: {fileID: 2137871954}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.56, z: 27.93}
+  m_LocalPosition: {x: 0, y: 2.56, z: 17.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2786,8 +2786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidPrefab: {fileID: 151664, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
-  maxAsteroids: 5
-  spawnRadius: 50
+  maxAsteroids: 15
+  spawnRadius: 10
   checkInterval: 1
   maxAsteroidsCap: 5
 --- !u!1001 &2364834859554557810
@@ -2810,6 +2810,30 @@ PrefabInstance:
       propertyPath: shipHealth
       value: 
       objectReference: {fileID: 602956412}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082841018515340067, guid: d72d1fbff5344d2488e5259581477720, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 360
+      objectReference: {fileID: 0}
     - target: {fileID: 5163389661852026285, guid: d72d1fbff5344d2488e5259581477720, type: 3}
       propertyPath: m_Name
       value: Ship
