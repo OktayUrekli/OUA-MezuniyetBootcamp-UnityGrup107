@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4565e6ec6e5edae4b9181a1591dd7ccf
+timeCreated: 1531418833
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/CoinSilver.prefab
+  uploadId: 255540

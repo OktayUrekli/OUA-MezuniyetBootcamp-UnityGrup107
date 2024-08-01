@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20bf4e5832bca134cb9c385228c3fab4
+timeCreated: 1531418827
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleSilver.prefab
+  uploadId: 255540

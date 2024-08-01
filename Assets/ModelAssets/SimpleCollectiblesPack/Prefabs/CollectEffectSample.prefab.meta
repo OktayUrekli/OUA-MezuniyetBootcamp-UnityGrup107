@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a45c51da10cf1a84abc6a99c06951e3f
+timeCreated: 1531420998
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/CollectEffectSample.prefab
+  uploadId: 255540

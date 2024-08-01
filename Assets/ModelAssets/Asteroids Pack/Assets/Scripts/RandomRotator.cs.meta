@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a718c138b20419b499c3d92b17e6ff7a
+timeCreated: 1489020458
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84988
+  packageName: Asteroids Pack
+  packageVersion: 1.0
+  assetPath: Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs
+  uploadId: 172354

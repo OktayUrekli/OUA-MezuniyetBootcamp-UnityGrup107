@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9867510fa3e6d11479b56ff45cf8b2ca
+timeCreated: 1531420455
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Shield.prefab
+  uploadId: 255540

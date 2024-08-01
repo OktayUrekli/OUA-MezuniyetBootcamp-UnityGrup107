@@ -18826,7 +18826,7 @@ GameObject:
   - component: {fileID: 448760591}
   m_Layer: 0
   m_Name: PolyShape (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86784,6 +86784,10 @@ MonoBehaviour:
   heightDamping: 5
   rotationSpeed: 1
   damping: 5
+  collisionOffset: 0.5
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

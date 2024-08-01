@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59c7078d344dfe94f97e849fe4f0dce0
+timeCreated: 1531418958
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/HealthPlusRed.prefab
+  uploadId: 255540

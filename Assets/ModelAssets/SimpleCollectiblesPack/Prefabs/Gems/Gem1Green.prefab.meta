@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e8a24275f78368469eb95764e51b756
+timeCreated: 1531418921
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab
+  uploadId: 255540

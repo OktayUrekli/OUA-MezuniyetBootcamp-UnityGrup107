@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dda9a30259f7907418f21d3f5cf7bf15
+timeCreated: 1531418956
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/HealthPlusGreen.prefab
+  uploadId: 255540

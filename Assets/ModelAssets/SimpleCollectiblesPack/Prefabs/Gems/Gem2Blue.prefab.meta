@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b1b0183561415e46bf2169710c3c00b
+timeCreated: 1531418916
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab
+  uploadId: 255540

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5199d6ab356967f41bd64316c9e60daf
+timeCreated: 1531418838
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/BarsOfSilver.prefab
+  uploadId: 255540

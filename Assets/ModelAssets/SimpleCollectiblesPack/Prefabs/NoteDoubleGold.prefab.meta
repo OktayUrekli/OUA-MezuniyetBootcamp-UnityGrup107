@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64aab82ac059b3b4e8c99af9d3bf4a26
+timeCreated: 1531418826
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/NoteDoubleGold.prefab
+  uploadId: 255540

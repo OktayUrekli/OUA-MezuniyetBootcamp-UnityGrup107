@@ -407,7 +407,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d8ebd33c56e63fe45ba2194cff36655d, type: 2}
+  - {fileID: 2100000, guid: 26f4e557be9c94a4482127a0d736b825, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c02a42137e235734c9057057c83870ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  asteroidPrefab: {fileID: 0}
+  asteroidPrefab: {fileID: 151664, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
   maxAsteroids: 5
   spawnRadius: 50
   checkInterval: 1

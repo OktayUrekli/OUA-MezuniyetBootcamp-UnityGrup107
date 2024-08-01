@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9568f15e6607c70469b5b2657c7cd0b3
+timeCreated: 1531418836
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Bullet.prefab
+  uploadId: 255540

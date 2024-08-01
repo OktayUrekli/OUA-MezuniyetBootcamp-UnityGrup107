@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 409010852d1134147862865a8889b834
+timeCreated: 1531418818
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Star.prefab
+  uploadId: 255540

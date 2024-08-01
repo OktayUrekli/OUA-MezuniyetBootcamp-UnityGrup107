@@ -1,21 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="Current">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <BaseIntermediateOutputPath>Temp\obj\$(Configuration)\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
   </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <LangVersion>9.0</LangVersion>
+    <Configurations>Debug;Release</Configurations>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9ADDAFA-BF2D-8B8F-A71B-AF10A6F0B9AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -39,23 +44,22 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <NoConfig>true</NoConfig>
+    <NoStandardLibraries>true</NoStandardLibraries>
     <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
-    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
   </PropertyGroup>
   <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2023.2.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\okan_\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -65,6 +69,7 @@
     <Compile Include="Assets\Scripts\KeyCollector.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\ModelAssets\SimpleCollectiblesPack\SimpleCollectibleScript.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy1Behaviour.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealthControl.cs" />
     <Compile Include="Assets\Scripts\EnemyControllerOkan.cs" />
@@ -110,6 +115,7 @@
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionPanel.cs" />
     <Compile Include="Assets\Scripts\NpcInteractionSystem\InteractionManager.cs" />
     <Compile Include="Assets\Scripts\FossileCollect.cs" />
+    <Compile Include="Assets\ModelAssets\Asteroids Pack\Assets\Scripts\RandomRotator.cs" />
     <Compile Include="Assets\Scripts\MenuCanvasManager.cs" />
     <Compile Include="Assets\Scripts\StoryManager\StoryManager.cs" />
     <Compile Include="Assets\Scripts\Trap.cs" />
@@ -688,14 +694,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.20f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1388,38 +1386,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{54D326B4-BF27-BD14-AA40-80F2F9AEE443}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
-      <Project>{FB4735A5-9EA9-662B-8AF8-5F69C341B7AA}</Project>
-      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="CodeMonkey_HealthSystem.csproj">
-      <Project>{2405E175-D508-09FD-A70F-316D96BC99F9}</Project>
-      <Name>CodeMonkey_HealthSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
-      <Project>{CD8B52AD-2D98-2D3A-B403-26D2F086281C}</Project>
-      <Name>Boxophobic.Utils.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
-      <Project>{E7489AED-8A3B-0CC4-C76D-569FAC50D8F1}</Project>
-      <Name>Boxophobic.Utils.Scripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="CodeMonkey_HealthSystem_Editor.csproj">
-      <Project>{401CEEB6-C0A3-3F05-8F6C-EAF6138C2554}</Project>
-      <Name>CodeMonkey_HealthSystem_Editor</Name>
-    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj" />
+    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj" />
+    <ProjectReference Include="CodeMonkey_HealthSystem.csproj" />
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj" />
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj" />
+    <ProjectReference Include="CodeMonkey_HealthSystem_Editor.csproj" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
 </Project>

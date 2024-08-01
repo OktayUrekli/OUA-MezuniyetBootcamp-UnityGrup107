@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30b32b7e817116548af38dbf12fb57ce
+timeCreated: 1531418918
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab
+  uploadId: 255540

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa49e460baf435b4780da7196c2ab473
+timeCreated: 1489020544
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84988
+  packageName: Asteroids Pack
+  packageVersion: 1.0
+  assetPath: Assets/Asteroids Pack/Assets/Prefabs/Asteroid 1.prefab
+  uploadId: 172354

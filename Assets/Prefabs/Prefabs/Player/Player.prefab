@@ -64,10 +64,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 18402078234744064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67d62c03130a15d4ab3b1735af4f9e0d, type: 3}
+  m_Script: {fileID: 11500000, guid: cdcf200b549732b419332bc99cf9397e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
+  damage: 10
 --- !u!1 &46758742275431589
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,7 +4843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: 100
   walkSpeed: 2.5
-  runSpeed: 8
+  runSpeed: 10
   crouchSpeed: 1
   jumpForce: 5
   forwardJumpOffset: 1
@@ -4994,7 +4994,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8846376235306602143}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 18d26eb85c8f7444192c94e0b41c3109, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 70b29c005ea620548b076d38e42101bd, type: 3}
   m_Controller: {fileID: 9100000, guid: b32a275b9283051449d9780041621267, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f6fbf6ba5b56aa4ba01adc51ab77ce6
+timeCreated: 1531418951
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Heart.prefab
+  uploadId: 255540

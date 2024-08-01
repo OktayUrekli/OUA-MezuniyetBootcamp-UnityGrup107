@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa0b611ccd277dd4f9e8ea7b8240c179
+timeCreated: 1531418841
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/BarsOfGold.prefab
+  uploadId: 255540

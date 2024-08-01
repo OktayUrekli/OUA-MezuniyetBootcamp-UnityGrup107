@@ -7,11 +7,11 @@ public class PlayerUIOkan : MonoBehaviour
     public Image healthBar;  // The Image component of the health bar's fill
     public TextMeshProUGUI healthText;  // The Text component to display health
 
-    private PlayerController1 playerController;
+    private PlayerController2 playerController;
 
     void Start()
     {
-        playerController = UnityEngine.Object.FindFirstObjectByType<PlayerController1>();
+        playerController = UnityEngine.Object.FindFirstObjectByType<PlayerController2>();
         if (playerController != null)
         {
             UpdateHealthUI(); // Initialize health UI

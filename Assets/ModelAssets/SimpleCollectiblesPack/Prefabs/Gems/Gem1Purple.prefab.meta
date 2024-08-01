@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a46ec114d125b3743bcceb157df289c6
+timeCreated: 1531418920
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab
+  uploadId: 255540

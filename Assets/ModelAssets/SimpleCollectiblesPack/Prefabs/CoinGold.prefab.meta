@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4eca7a8ef879cfb41b294a8c0d69ea58
+timeCreated: 1531418834
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/CoinGold.prefab
+  uploadId: 255540

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a37573ad5d3fb7a47997aadbf0976202
+timeCreated: 1531418819
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Ring.prefab
+  uploadId: 255540

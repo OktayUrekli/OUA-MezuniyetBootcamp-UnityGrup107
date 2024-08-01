@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a41967153dfaf44ab59d37a1c2440ae
+timeCreated: 1531418821
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/NoteSingleSilver.prefab
+  uploadId: 255540

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e96a5cadf0c8f948b8c09bc6772e39e
+timeCreated: 1531418953
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/HourGlass.prefab
+  uploadId: 255540

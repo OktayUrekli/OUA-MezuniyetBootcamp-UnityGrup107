@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59fd4762fc827164bb3eadbefb882946
+timeCreated: 1531418942
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123092
+  packageName: Simple Collectibles Pack
+  packageVersion: 1.0
+  assetPath: Assets/SimpleCollectiblesPack/Prefabs/Gun1.prefab
+  uploadId: 255540
