@@ -195,3 +195,57 @@ https://github.com/user-attachments/assets/4a64311c-c6fd-4415-a928-61389afd01cc
 ## Notlar
 - **Geliştirilmesi Gerekenler:** Çok fazla branch olduğu için ve proje açılırken belli şeyler gözden kaçırıldığından dolayı main branche merge yapılırken sorunlar çıkmakta.
 - **Aksiyon Planı:** Merge sırasında sıkıntı çıkmaması için projeye gerekli düzenlemelerin yapılıp main branch kısmına temiz bir şekilde yükleme yapılmasına ve diğer branchlerin temizlenip gerekirse sıkıntı çıkmaması için yeni branchlerin main branchten çekilerek temiz bir şekilde yeniden açılmasına karar verildi.
+
+________________________________________
+
+# Sprint 2
+### Sprint Düzeni
+- **Sprint İçi Tamamlanacak Puan:** 35 puan
+- **Tahmin Mantığı:** Proje boyunca tamamlanması gereken backlog puanı 100 olarak belirlenmiştir. İlk sprint önemli görevlerin tamamlanmasına, ikinci sprintte oyunun oynanabilir şekilde birleştirilip bitirilmesine, son sprintte ise detayların düzeltilip teslime hazırlanılmasına karar verilmiştir. Son sprint en az puani olan sprinttir. Son sprint detay düzeltmeleri entegrasyon ve hata düzeltilmelerine ayrılmış ve teslime hazırlık sprinti olarak ayarlanmıştır. Yapılacak şeyler detay işlemleri olduğundan dolayı sprint puani diğer iki sprintten azdır ve genel sprint puanının 3te 1lik kısmının altındadır.
+  - Hikayeyi oyuna entegre etme: 5 puan
+  - UI entegrasyonu: 5 puan
+  - Müziklerin ve ses efektlerinin eklenmesi: 5 puan
+  - Bulmacaların ve mekaniklerin son entegrasyonlarının tamamlanması: 5 puan
+  - Testlerin yapılması ve hataların düzeltilmesi: 3 puan
+  - Teslim videosunun çekilmesi ve dökümantasyonun hazırlanması: 2 puan
+
+
+### Backlog Düzeni ve Epic Kullanımı
+Proje için tamamlanması gereken ana tasklar epic olarak timeline'a not edilmiştir. Epiclerin altına da bu epic'i tamamlamak için gereken subtasklar girilip gerekli ekip üyelerine atanmıştır.
+![image](https://github.com/user-attachments/assets/c53a91d2-d97c-4fc0-a733-effd10b29622)
+
+### Daily Scrum
+WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana görevlerin belirlenmesi ile birlikte Discord üzerinden tasarım, yazılım, planlama ve kaynak kullanımı odaklı kanallar oluşturulmuş ve gerekli konuşmalar ve paylaşımlar oradan düzenli olarak yapılmaktadır.
+
+- **Planlama Ekibi:** Selen, Oktay
+- **Yazılım Ekibi:** Oktay, Okan, Selene
+- **Tasarım Ekibi:** Selen, Selin
+
+[WP/DC Screenshots](https://drive.google.com/drive/folders/1Pcz96jnKWaL8KIs_apBAyK-Gnae1PyYp?usp=sharing)
+
+### Sprint Board Updates
+- **Sprint Board:** Jira kullanılarak güncellenmiştir.
+- **Görevlerin Durumu:** Jira Board
+![image](https://github.com/user-attachments/assets/5ac31b55-1477-4676-a39c-ea07bbd73612)
+
+
+### Ürün Durumu
+
+
+
+### Sprint Review
+- **Katılımcılar:** Oktay, Okan, Selen, Selene, Selin
+- **Özet:** Hikaye oyuna entegre edildi, NPC'ler hikayeye göre haritaya yerleştirildi. UI entegrasyonu tamamlandı. Müzikler ve ses efektleri oyuna eklendi. Bulmacaların ve mekaniklerin son entegrasyonları yapıldı. Oyun test edildi, hatalar düzeltildi. Teslim videosu çekildi ve gerekli dökümantasyonlar hazırlandı. Elde edilen sonuçlar gösterildi ve geri bildirimler alındı. Oyunun son düzenlemeleri yapıldı ve teslime hazır hale getirildi. Gerekli dökümantasyonlar paylaşıldı ve onaylar alındı.
+
+
+### Sprint Retrospective
+- Oyun tamamlandı.
+- NPC'ler yerleştirilip hikayeye uyarlandı.
+- Müzikler ve UI eklendi her şey birleştirildi.
+- Son testler yapıldı, .ıkan sorunlar önem sırasında alındı hangilerinin giderilip hangilerinin sıkıntı çıkarmayacağına karar verildi.
+- Vidolar çekilip dökümantasyon işlemleri bitirildi. Form doldurulup gönderilecek.
+
+## Notlar
+- Ürün son birleştirilmeler yapılırken çok fazla çakışma ve sorun çıkardı. Düzeltebileceğimiz kadarını düzelttik.
+- Zaman kalmadığı için ML Agents oyuna eklenemedi. Oyunda şu an yapay zeka kullanılmıyor.
+
