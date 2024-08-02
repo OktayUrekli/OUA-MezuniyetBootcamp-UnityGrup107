@@ -32,6 +32,7 @@
 - 3D
 - Hareket etme, savaşma, ateş etme, ışınlanma mekanikleri
 - Çözülmesi gereken bulmacalar ve kaçınılması gereken tuzaklar
+- Yapay zeka ile hareket eden NPC'ler
 
 ## Hedef Kitle
 - **Yaş Grubu:** 12+
@@ -254,6 +255,7 @@ https://github.com/user-attachments/assets/226581e4-2c2c-4dd8-b6ac-2c2702c7f69c
 
 ### Sprint Retrospective
 - Oyun tamamlandı.
+- Oyuna yapay zeka eklendi. NPC hareketleri NavmeshAgent tarafından sağlanıyor.
 - NPC'ler yerleştirilip hikayeye uyarlandı.
 - Müzikler ve UI eklendi her şey birleştirildi.
 - Son testler yapıldı, çıkan sorunlar önem sırasında alındı hangilerinin giderilip hangilerinin sıkıntı çıkarmayacağına karar verildi.
@@ -261,5 +263,5 @@ https://github.com/user-attachments/assets/226581e4-2c2c-4dd8-b6ac-2c2702c7f69c
 
 ## Notlar
 - Ürün son birleştirilmeler yapılırken çok fazla çakışma ve sorun çıkardı. Düzeltebileceğimiz kadarını düzelttik.
-- Zaman kalmadığı için ML Agents oyuna eklenemedi. Oyunda şu an yapay zeka kullanılmıyor.
+- Yapay zeka kullanımı NavmeshAgent kullanılarak NPC'lere eklendi. NPC hareketleri yapay zeka ile güçlendirilmiş oldu.
 
