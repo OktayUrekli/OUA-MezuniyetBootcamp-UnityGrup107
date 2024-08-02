@@ -225,6 +225,7 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 ### Sprint Board Updates
 - **Sprint Board:** Jira kullanılarak güncellenmiştir.
 - **Görevlerin Durumu:** Jira Board
+
 ![image](https://github.com/user-attachments/assets/5ac31b55-1477-4676-a39c-ea07bbd73612)
 
 
