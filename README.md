@@ -24,7 +24,7 @@
 - **Dokümantasyon:** Google Docs, Jira
 
 ## Ürün Açıklaması
-"Space Repair Adventure", yabancı bir gezegene düşen bir uzay gemisinin tamir edilmesi üzerine kurulmuş bir macera oyunudur. Oyuncu gezegenin farklı bölgelerine giderek malzemeler toplar, bulmacaları çözer, tuzaklardan kaçar ve düşmanlardan kurtulmaya çalışır. Amacı uzay gemisini tamir ederek gezegenden ayrılmaktır.
+"Space Repair Adventure", yabancı bir gezegene düşen bir uzay gemisine yakıt bulunması üzerine kurulmuş bir macera oyunudur. Oyuncu gezegenin farklı bölgelerine giderek malzemeler toplar, bulmacaları çözer ve tuzaklardan kaçar. Amacı uzay gemisine yakıt bularak gezegenden ayrılmaktır.
 
 ## Ürün Özellikleri
 - Birden fazla level (level atlama/kademeli map açılımı)
@@ -32,7 +32,6 @@
 - 3D
 - Hareket etme, savaşma, ateş etme, ışınlanma mekanikleri
 - Çözülmesi gereken bulmacalar ve kaçınılması gereken tuzaklar
-- Oyuncuyu takip eden ve engellemeye çalışan ML Agent ile güçlendirilmiş düşmanlar
 
 ## Hedef Kitle
 - **Yaş Grubu:** 12+
@@ -231,6 +230,16 @@ WhatsApp ve Discord üzerinden düzenli görüşmeler yapılmıştır. Ana göre
 
 ### Ürün Durumu
 
+https://github.com/user-attachments/assets/b511bd58-db40-4fa8-800e-e5effb20c3cb
+![9](https://github.com/user-attachments/assets/9b12a035-4486-4669-8217-78fbed526039)
+![8](https://github.com/user-attachments/assets/6021b09f-12f7-4605-a781-195695152c3e)
+![7](https://github.com/user-attachments/assets/979e4415-b45d-4f47-967b-d16c37acdbd9)
+![6](https://github.com/user-attachments/assets/dd1d46dc-6b99-4784-8e44-28d5b09aaddd)
+![5](https://github.com/user-attachments/assets/d2e1edbf-1ac0-41b3-a386-47c7e49308e7)
+![4](https://github.com/user-attachments/assets/f2b04d2f-067f-416f-ac7b-6522d1d015c5)
+![3](https://github.com/user-attachments/assets/aabb66f8-171b-47ab-9578-262dc9a869a7)
+![2](https://github.com/user-attachments/assets/3d351276-513d-4cfd-98b7-5e9c7b185171)
+![1](https://github.com/user-attachments/assets/dd2a20e0-3ad0-43a4-bc09-8e32a9562659)
 
 
 ### Sprint Review
